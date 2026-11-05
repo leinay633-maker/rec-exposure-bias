@@ -1,0 +1,15 @@
+{
+ "run_id": "20261103-225256-rlrec-text-7322bc",
+ "time": "2026-11-03 22:55:20",
+ "dir": ".runs/rlrec/text/20261103-225256-rlrec-text-7322bc",
+ "videos": 7583,
+ "malformed": 35,
+ "usable_caption": 7463,
+ "no_text": 0,
+ "with_cover_text": 912,
+ "with_categories": 7571,
+ "texts_hitting_max_tokens": 9,
+ "emb_sha256": "fa6e3309a9eecf650a7293ec7fe6a9c9be4df67191364fef7db067a9b0ff9946",
+ "texts_sha256": "e2cb481f07a3146ea9994a7771eeac0f221c6cde8853cc597cd6c2a4ef5aab40",
+ "seconds": 144.1
+}

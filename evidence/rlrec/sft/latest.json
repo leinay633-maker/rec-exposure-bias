@@ -1,0 +1,127 @@
+{
+ "run_id": "20261104-104627-rlrec-sft-select-f78f8e",
+ "time": "2026-11-04 11:22:28",
+ "dir": ".runs/rlrec/sft/20261104-104627-rlrec-sft-select-f78f8e",
+ "windows": 26284,
+ "valid_users": 2000,
+ "trials": [
+  {
+   "run_id": "20261104-104627-rlrec-sft-e958d4",
+   "path": ".runs/rlrec/models/20261104-104627-rlrec-sft-e958d4.pt",
+   "sha256": "dffb4f2ab233c49f1480e15ce87346ba433257021370a07ac7e090ad4b54274c",
+   "config": {
+    "d": 128,
+    "layers": 2
+   },
+   "seed": 0,
+   "codes_sha256": "226be27dd061c66f59cf867b8020cb78673cadaf6cfcc8a784410a19ef10c4df",
+   "valid_recall@100": 0.2905732429485719,
+   "best_epoch": 21,
+   "epochs_run": 25,
+   "seconds": 209.0,
+   "batch": 128
+  },
+  {
+   "run_id": "20261104-104957-rlrec-sft-0a1d40",
+   "path": ".runs/rlrec/models/20261104-104957-rlrec-sft-0a1d40.pt",
+   "sha256": "6f72a789c068e5979ff5d664d2b9784ade66c622c5127c166a33b038d50ae106",
+   "config": {
+    "d": 128,
+    "layers": 4
+   },
+   "seed": 0,
+   "codes_sha256": "226be27dd061c66f59cf867b8020cb78673cadaf6cfcc8a784410a19ef10c4df",
+   "valid_recall@100": 0.34911355125138016,
+   "best_epoch": 29,
+   "epochs_run": 33,
+   "seconds": 485.2,
+   "batch": 128
+  },
+  {
+   "run_id": "20261104-105802-rlrec-sft-9e6943",
+   "path": ".runs/rlrec/models/20261104-105802-rlrec-sft-9e6943.pt",
+   "sha256": "a23e59e482a7cfcc585f3e85b40c1bb951dd4c1f4aee28b7ff8f9fd6ea6ddd6f",
+   "config": {
+    "d": 256,
+    "layers": 2
+   },
+   "seed": 0,
+   "codes_sha256": "226be27dd061c66f59cf867b8020cb78673cadaf6cfcc8a784410a19ef10c4df",
+   "valid_recall@100": 0.33225858209772685,
+   "best_epoch": 26,
+   "epochs_run": 30,
+   "seconds": 388.8,
+   "batch": 128
+  },
+  {
+   "run_id": "20261104-110431-rlrec-sft-bfae40",
+   "path": ".runs/rlrec/models/20261104-110431-rlrec-sft-bfae40.pt",
+   "sha256": "f3813ea7a52d94842e13201f6b362b1ed1f803db43dd4b0174f54d5a676d5eb5",
+   "config": {
+    "d": 256,
+    "layers": 4
+   },
+   "seed": 0,
+   "codes_sha256": "226be27dd061c66f59cf867b8020cb78673cadaf6cfcc8a784410a19ef10c4df",
+   "valid_recall@100": 0.33356280382629067,
+   "best_epoch": 13,
+   "epochs_run": 17,
+   "seconds": 403.1,
+   "batch": 128
+  }
+ ],
+ "config": {
+  "d": 128,
+  "layers": 4
+ },
+ "seeds": {
+  "0": {
+   "run_id": "20261104-104957-rlrec-sft-0a1d40",
+   "path": ".runs/rlrec/models/20261104-104957-rlrec-sft-0a1d40.pt",
+   "sha256": "6f72a789c068e5979ff5d664d2b9784ade66c622c5127c166a33b038d50ae106",
+   "config": {
+    "d": 128,
+    "layers": 4
+   },
+   "seed": 0,
+   "codes_sha256": "226be27dd061c66f59cf867b8020cb78673cadaf6cfcc8a784410a19ef10c4df",
+   "valid_recall@100": 0.34911355125138016,
+   "best_epoch": 29,
+   "epochs_run": 33,
+   "seconds": 485.2,
+   "batch": 128
+  },
+  "1": {
+   "run_id": "20261104-111114-rlrec-sft-cb0915",
+   "path": ".runs/rlrec/models/20261104-111114-rlrec-sft-cb0915.pt",
+   "sha256": "ad3ab7cc02d96db93aecaaba0fc9bc561b0e38d52b9d0d595f6b31223050560d",
+   "config": {
+    "d": 128,
+    "layers": 4
+   },
+   "seed": 1,
+   "codes_sha256": "b6b2d1ad7c878e94303a4d13ae289575920d2f6ad654584da3e3c0cef9a0f2ca",
+   "valid_recall@100": 0.34422665266020536,
+   "best_epoch": 22,
+   "epochs_run": 26,
+   "seconds": 380.6,
+   "batch": 128
+  },
+  "2": {
+   "run_id": "20261104-111735-rlrec-sft-30cac0",
+   "path": ".runs/rlrec/models/20261104-111735-rlrec-sft-30cac0.pt",
+   "sha256": "cb92dc58d9d60d8df4e33b2502c9d529aeaba98872768570f49fcfe0c8070ede",
+   "config": {
+    "d": 128,
+    "layers": 4
+   },
+   "seed": 2,
+   "codes_sha256": "5fc510d2d5d16efe72b8977b50136f9a4ac75b3244a3b6c113b55ed082067936",
+   "valid_recall@100": 0.3164851058298427,
+   "best_epoch": 16,
+   "epochs_run": 20,
+   "seconds": 293.4,
+   "batch": 128
+  }
+ }
+}

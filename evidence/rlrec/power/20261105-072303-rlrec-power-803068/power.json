@@ -1,0 +1,148 @@
+{
+ "hold_users": 13512,
+ "hold_rows": 118823,
+ "status": {
+  "H1": {
+   "testable": true,
+   "reasons": []
+  },
+  "H2": {
+   "testable": true,
+   "reasons": []
+  },
+  "H3": {
+   "testable": true,
+   "reasons": []
+  },
+  "H4": {
+   "testable": true,
+   "reasons": []
+  },
+  "H5": {
+   "testable": true,
+   "reasons": []
+  },
+  "H6": {
+   "testable": true,
+   "reasons": []
+  }
+ },
+ "extrapolation": {
+  "rows_denominator": 858699.2141799199,
+  "hold_row_retention": 0.961701266642386,
+  "users_denominator": 25437,
+  "multiplier": 3.479878507049665
+ },
+ "ks": {
+  "500": {
+   "pi0_value_hold": 0.3014913691899648,
+   "threshold": 0.01507456845949824,
+   "hypotheses": {
+    "H1": {
+     "se_hold": 0.0033697322765565353,
+     "se_test_extrapolated": 0.002455965552442224,
+     "mde": 0.008546461739998052,
+     "degenerate": false,
+     "passes": true
+    },
+    "H2": {
+     "se_hold": 0.0020496614559218623,
+     "se_test_extrapolated": 0.001493856934847273,
+     "mde": 0.005198440640182117,
+     "degenerate": false,
+     "passes": true
+    },
+    "H3": {
+     "se_hold": 0.0018082778751366264,
+     "se_test_extrapolated": 0.0013179290834099194,
+     "mde": 0.004586233091173844,
+     "degenerate": false,
+     "passes": true
+    },
+    "H4": {
+     "se_hold": 0.0025817270812138445,
+     "se_test_extrapolated": 0.00188164288937155,
+     "mde": 0.0065478886486668875,
+     "degenerate": false,
+     "passes": true
+    },
+    "H5": {
+     "se_hold": 0.001129965433739643,
+     "se_test_extrapolated": 0.000823553906647705,
+     "mde": 0.002865867539140135,
+     "degenerate": false,
+     "passes": true
+    },
+    "H6": {
+     "se_hold": 0.001133138893302084,
+     "se_test_extrapolated": 0.0008258668225495545,
+     "mde": 0.0028739162054755942,
+     "degenerate": false,
+     "passes": true
+    }
+   }
+  },
+  "1000": {
+   "pi0_value_hold": 0.27061419481994037,
+   "threshold": 0.013530709740997019,
+   "hypotheses": {
+    "H1": {
+     "se_hold": 0.001996636885643335,
+     "se_test_extrapolated": 0.0014552109810001056,
+     "mde": 0.005063957416004926,
+     "degenerate": false,
+     "passes": true
+    },
+    "H2": {
+     "se_hold": 0.0012134734120902281,
+     "se_test_extrapolated": 0.0008844171151613227,
+     "mde": 0.0030776641103167557,
+     "degenerate": false,
+     "passes": true
+    },
+    "H3": {
+     "se_hold": 0.0011176377318807605,
+     "se_test_extrapolated": 0.0008145690946147645,
+     "mde": 0.002834601484856824,
+     "degenerate": false,
+     "passes": true
+    },
+    "H4": {
+     "se_hold": 0.00150559701694831,
+     "se_test_extrapolated": 0.0010973258722094751,
+     "mde": 0.00381856071793128,
+     "degenerate": false,
+     "passes": true
+    },
+    "H5": {
+     "se_hold": 0.0006922623275137762,
+     "se_test_extrapolated": 0.0005045422870699641,
+     "mde": 0.0017557458606724504,
+     "degenerate": false,
+     "passes": true
+    },
+    "H6": {
+     "se_hold": 0.0006854289917512851,
+     "se_test_extrapolated": 0.0004995619397118947,
+     "mde": 0.001738414856943463,
+     "degenerate": false,
+     "passes": true
+    }
+   }
+  }
+ },
+ "decision": {
+  "branch": 1,
+  "k": 500,
+  "family": [
+   "H1",
+   "H2",
+   "H3",
+   "H4",
+   "H5",
+   "H6"
+  ],
+  "untestable": []
+ },
+ "seconds": 1744.2
+}

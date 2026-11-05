@@ -1,0 +1,100 @@
+{
+ "run_id": "20261104-103703-rlrec-sids-a888c8",
+ "time": "2026-11-04 10:38:32",
+ "dir": ".runs/rlrec/sids/20261104-103703-rlrec-sids-a888c8",
+ "seeds": {
+  "0": {
+   "seed": 0,
+   "config": {
+    "latent": 32,
+    "levels": 3,
+    "codebook": 64,
+    "lr": 0.001,
+    "steps": 3000,
+    "reset_every": 200
+   },
+   "retried_with_double_steps": false,
+   "codes_used_per_level": [
+    64,
+    64,
+    64
+   ],
+   "three_code_collisions": {
+    "items": 7583,
+    "distinct_prefixes": 7014,
+    "items_sharing_a_prefix": 1035,
+    "max_group": 12
+   },
+   "fourth_code_max": 11,
+   "final_loss": {
+    "step": 2999,
+    "recon": 0.45495763421058655,
+    "rq": 0.2119472622871399
+   },
+   "sha256": "226be27dd061c66f59cf867b8020cb78673cadaf6cfcc8a784410a19ef10c4df",
+   "file": ".runs/rlrec/sids/20261104-103703-rlrec-sids-a888c8/sid_seed0.npy"
+  },
+  "1": {
+   "seed": 1,
+   "config": {
+    "latent": 32,
+    "levels": 3,
+    "codebook": 64,
+    "lr": 0.001,
+    "steps": 3000,
+    "reset_every": 200
+   },
+   "retried_with_double_steps": false,
+   "codes_used_per_level": [
+    64,
+    64,
+    64
+   ],
+   "three_code_collisions": {
+    "items": 7583,
+    "distinct_prefixes": 6995,
+    "items_sharing_a_prefix": 1060,
+    "max_group": 12
+   },
+   "fourth_code_max": 11,
+   "final_loss": {
+    "step": 2999,
+    "recon": 0.45333394408226013,
+    "rq": 0.21243032813072205
+   },
+   "sha256": "b6b2d1ad7c878e94303a4d13ae289575920d2f6ad654584da3e3c0cef9a0f2ca",
+   "file": ".runs/rlrec/sids/20261104-103703-rlrec-sids-a888c8/sid_seed1.npy"
+  },
+  "2": {
+   "seed": 2,
+   "config": {
+    "latent": 32,
+    "levels": 3,
+    "codebook": 64,
+    "lr": 0.001,
+    "steps": 3000,
+    "reset_every": 200
+   },
+   "retried_with_double_steps": false,
+   "codes_used_per_level": [
+    64,
+    64,
+    64
+   ],
+   "three_code_collisions": {
+    "items": 7583,
+    "distinct_prefixes": 6976,
+    "items_sharing_a_prefix": 1099,
+    "max_group": 13
+   },
+   "fourth_code_max": 12,
+   "final_loss": {
+    "step": 2999,
+    "recon": 0.454709529876709,
+    "rq": 0.2028987854719162
+   },
+   "sha256": "5fc510d2d5d16efe72b8977b50136f9a4ac75b3244a3b6c113b55ed082067936",
+   "file": ".runs/rlrec/sids/20261104-103703-rlrec-sids-a888c8/sid_seed2.npy"
+  }
+ }
+}

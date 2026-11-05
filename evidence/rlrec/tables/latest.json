@@ -1,0 +1,180 @@
+{
+ "run_id": "20261104-112701-rlrec-tables-a8fe8e",
+ "time": "2026-11-04 13:35:20",
+ "dir": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e",
+ "files": {
+  "users": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/users.npy",
+   "sha256": "9d6270448189f96e8e549286df26599e3b6c5a6fcf0c4739bcc9f5145aa7ce20"
+  },
+  "R1": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R1.npy",
+   "sha256": "33e57593a3eb43644e2963e666e57f1c117e67c92237b5aa800629789c20a931"
+  },
+  "R4": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R4.npy",
+   "sha256": "450e74a84deca05e9f21b6cac2b41b37568c9ac31d8bbeedbdc40af116e89f2f"
+  },
+  "R5": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R5.npy",
+   "sha256": "d6cb8ad35ae520bb20faee47b4e6ccdc9d6ab1a5a35e6e1a000dc6b93b515bc5"
+  },
+  "R6": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R6.npy",
+   "sha256": "45393b9a322879bb042509bfc01abb885809250a18e6831797ccbb52bb97dcea"
+  },
+  "R2": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R2.npy",
+   "sha256": "e84d05ad015db6c037aa4a1be9b63a8f340d7a241fcc20bb202b67cc60049e7b"
+  },
+  "R3": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R3.npy",
+   "sha256": "9f3a6dcf2e06a443b0114df5eae791122747bb1cada476efd4ded9ad31d71bca"
+  },
+  "R3_all_rows": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R3_all_rows.npy",
+   "sha256": "9abe63ed30feccc36ab59d3d92ad6777f9d8391f83d61265a6f265a706ffa0b5"
+  },
+  "R3_actual_context": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/R3_actual_context.npy",
+   "sha256": "3202409080bc74dd8341e1f9b0f412f643e428cf9da2fcbf5f23cbfdad0f1dbc"
+  },
+  "item_group": {
+   "file": ".runs/rlrec/tables/20261104-112701-rlrec-tables-a8fe8e/item_group.npy",
+   "sha256": "a2c08a5dbd4755fa69106873dc422a2c8d446c2139aaed74e199eaffb901e50e"
+  }
+ },
+ "frozen_a": [
+  {
+   "path": ".runs/runs/20261030-204541-tune-lightgbm-25b604/model.txt",
+   "sha256": "a81a7f44467f804a69f16173a9a7ebb513805fa93f97516a9aff47f744841391"
+  },
+  {
+   "path": ".runs/runs/20261030-204859-seed-lightgbm-cdc788/model.txt",
+   "sha256": "0f8497f811cda7d14286abd6d4c66b40db2b308c2a146556681a36d80d0833c2"
+  },
+  {
+   "path": ".runs/runs/20261030-204923-seed-lightgbm-336d78/model.txt",
+   "sha256": "c5997a7cd6ae64f5e5f91632540dcc01b91743cba1ffd8597b0012bdc8ab854f"
+  }
+ ],
+ "calibrations": {
+  "main": {
+   "platt": [
+    -1.7783608145586682,
+    0.8930157171023368
+   ],
+   "grouped": {
+    "global": [
+     -1.7783608145586682,
+     0.8930157171023368
+    ],
+    "groups": {
+     "0": [
+      -1.9769341558591627,
+      0.8695082478912622
+     ],
+     "1": [
+      -1.8925225192744994,
+      0.8907367522876004
+     ],
+     "2": [
+      -1.7681268486281307,
+      0.8222969462217687
+     ],
+     "3": [
+      -1.7169074266977646,
+      0.8509183701185639
+     ],
+     "4": [
+      -1.5543762710847737,
+      0.9343761644959041
+     ]
+    }
+   }
+  },
+  "all_rows": {
+   "platt": [
+    -1.7719595599412779,
+    0.8923565202325545
+   ],
+   "grouped": {
+    "global": [
+     -1.7719595599412779,
+     0.8923565202325545
+    ],
+    "groups": {
+     "0": [
+      -2.0009417008403405,
+      0.9305151308497889
+     ],
+     "1": [
+      -1.9016181132639882,
+      0.8784015466212217
+     ],
+     "2": [
+      -1.7770394415586996,
+      0.7995717663769705
+     ],
+     "3": [
+      -1.7078220315795296,
+      0.8551922349115006
+     ],
+     "4": [
+      -1.4980513690082566,
+      0.910857044795928
+     ]
+    }
+   }
+  },
+  "actual_context": {
+   "platt": [
+    -1.793631085239102,
+    0.8986363648834367
+   ],
+   "grouped": {
+    "global": [
+     -1.793631085239102,
+     0.8986363648834367
+    ],
+    "groups": {
+     "0": [
+      -1.992359493293964,
+      0.8768392506920275
+     ],
+     "1": [
+      -1.9061470743500675,
+      0.8905909806786457
+     ],
+     "2": [
+      -1.7828297061961556,
+      0.828607586950679
+     ],
+     "3": [
+      -1.7309291296692972,
+      0.8568889566277916
+     ],
+     "4": [
+      -1.571358299245261,
+      0.9412660679242609
+     ]
+    }
+   }
+  }
+ },
+ "slope_at_zero": {
+  "main": [],
+  "all_rows": [],
+  "actual_context": []
+ },
+ "calibration_rows": {
+  "main": 61434,
+  "all_rows": 161574
+ },
+ "reference_context": {
+  "tab": 1,
+  "date": 20220422,
+  "hour": 22
+ },
+ "seconds": 7699.4
+}

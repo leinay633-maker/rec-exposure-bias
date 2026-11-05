@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.gz binary
+evidence/** -text
+configs/kuairec/zoo_manifest.json -text

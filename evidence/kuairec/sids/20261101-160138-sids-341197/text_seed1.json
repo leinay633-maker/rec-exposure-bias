@@ -1,0 +1,31 @@
+{
+ "seed": 1,
+ "config": {
+  "latent": 32,
+  "levels": 3,
+  "codebook": 64,
+  "lr": 0.001,
+  "steps": 3000,
+  "reset_every": 200
+ },
+ "retried_with_double_steps": false,
+ "codes_used_per_level": [
+  64,
+  64,
+  64
+ ],
+ "three_code_collisions": {
+  "items": 10728,
+  "distinct_prefixes": 8962,
+  "items_sharing_a_prefix": 2568,
+  "max_group": 84
+ },
+ "fourth_code_max": 83,
+ "final_loss": {
+  "step": 2999,
+  "recon": 0.39541590213775635,
+  "rq": 0.1683717668056488
+ },
+ "sha256": "f073fd3ce56b469549827769c90b52c921e77e96d2f9ca03bacccaa6b665c7f5",
+ "embedding_sha256": "fd018629ec4543d924210006a92121c7a8f3697a042e6850cd91fed800468c79"
+}

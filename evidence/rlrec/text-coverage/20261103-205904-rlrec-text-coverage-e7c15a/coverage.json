@@ -1,0 +1,73 @@
+{
+ "note": "docs/rlrec/DATA.md §2; KuaiRand supplement on KuaiRand-Pure videos",
+ "time": "2026-11-03 21:01:06",
+ "files": {
+  "kuairand_video_captions.csv": {
+   "bytes": 3222932768,
+   "md5": "9fd4e7587ffd0c8dc289d013858fb229"
+  },
+  "kuairand_video_categories.csv": {
+   "bytes": 3687928520,
+   "md5": "8a4c772d3d8f8cf65fa1e1eb896f4177"
+  }
+ },
+ "pure_videos": 7583,
+ "file_rows": {
+  "captions": 32038725,
+  "categories": 32038725
+ },
+ "captions": {
+  "videos_present": 7583,
+  "duplicate_ids": 0,
+  "empty_caption": 85,
+  "empty_after_removing_hashtags_and_mentions": 610,
+  "show_cover_text_nonempty": 944,
+  "caption_length": {
+   "mean": 42.00466791144305,
+   "p10": 16.0,
+   "p50": 37.0,
+   "p90": 73.0,
+   "max": 856
+  },
+  "duration_compared": 7295,
+  "duration_equal": 0,
+  "duration_equal_share": 0.0
+ },
+ "categories": {
+  "videos_present": 7583,
+  "duplicate_ids": 0,
+  "tag_compared": 7487,
+  "multi_tag_videos": 1791,
+  "first_level_in_tags_share": 0.7817550420729265,
+  "first_level_equals_first_tag_share": 0.7522372111660212,
+  "levels": {
+   "first": {
+    "known": 7571,
+    "distinct": 38,
+    "prob_p50_when_known": 0.991910994052887
+   },
+   "second": {
+    "known": 6493,
+    "distinct": 155,
+    "prob_p50_when_known": 0.9744964838027954
+   },
+   "third": {
+    "known": 2849,
+    "distinct": 245,
+    "prob_p50_when_known": 0.985996663570404
+   },
+   "fourth": {
+    "known": 527,
+    "distinct": 77,
+    "prob_p50_when_known": 0.9925776124000548
+   }
+  }
+ },
+ "decision": {
+  "ids_match": false,
+  "usable_captions": 7498,
+  "usable_share": 0.9887907160754319,
+  "use_text": false
+ },
+ "seconds": 121.7
+}

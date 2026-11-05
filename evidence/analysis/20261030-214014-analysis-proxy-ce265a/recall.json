@@ -1,0 +1,510 @@
+{
+  "proxy": true,
+  "models": [
+    "recall_popularity",
+    "recall_itemcf",
+    "recall_two_tower",
+    "recall_two_tower_logq"
+  ],
+  "users": 6649,
+  "recall@100": {
+    "recall_popularity": [
+      0.19311943268789591,
+      0.025478813241846622
+    ],
+    "recall_itemcf": [
+      0.32369020098013157,
+      0.02927729235707167
+    ],
+    "recall_two_tower": [
+      0.16405314750379069,
+      0.02335258659109356
+    ],
+    "recall_two_tower_logq": [
+      0.41235680643515643,
+      0.02900923649880502
+    ]
+  },
+  "secondary": {
+    "recall@50": {
+      "recall_popularity": [
+        0.1211258798020682,
+        0.014366056685296332
+      ],
+      "recall_itemcf": [
+        0.21642515254300387,
+        0.0163731245011366
+      ],
+      "recall_two_tower": [
+        0.09321051923855898,
+        0.012610919411252336
+      ],
+      "recall_two_tower_logq": [
+        0.28133108419433756,
+        0.01452426340987002
+      ]
+    },
+    "recall@200": {
+      "recall_popularity": [
+        0.2732386985943403,
+        0.04764860628676246
+      ],
+      "recall_itemcf": [
+        0.4650741256012659,
+        0.0541102709312726
+      ],
+      "recall_two_tower": [
+        0.27492560634514446,
+        0.04576550772602119
+      ],
+      "recall_two_tower_logq": [
+        0.5685549802068942,
+        0.05615213480430645
+      ]
+    },
+    "ndcg@100": {
+      "recall_popularity": [
+        0.06800968664333279,
+        0.008268742990467613
+      ],
+      "recall_itemcf": [
+        0.11549169315734421,
+        0.009353740208420102
+      ],
+      "recall_two_tower": [
+        0.04850877749607266,
+        0.0074806131935262745
+      ],
+      "recall_two_tower_logq": [
+        0.14282403464719495,
+        0.009333152773668993
+      ]
+    }
+  },
+  "gap_changes": {
+    "pairs": [
+      {
+        "pair": [
+          "recall_popularity",
+          "recall_itemcf"
+        ],
+        "delta": [
+          -0.13057076829223566,
+          -0.0037984791152250487
+        ],
+        "did": 0.1267722891770106,
+        "direction": "narrowed",
+        "residual": -0.0008307881557692845,
+        "se": 0.004336272995072869,
+        "ci": [
+          0.11836061487594307,
+          0.13540372922213958
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.015089703196253955,
+        "mde_unadjusted": 0.012148438324698599,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_popularity",
+          "recall_two_tower"
+        ],
+        "delta": [
+          0.02906628518410523,
+          0.002126226650753061
+        ],
+        "did": -0.026940058533352167,
+        "direction": "narrowed",
+        "residual": 0.0014655906378533688,
+        "se": 0.005403355135878191,
+        "ci": [
+          -0.037607045203160265,
+          -0.016378350769886554
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.01880301940329894,
+        "mde_unadjusted": 0.015137959876891129,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_popularity",
+          "recall_two_tower_logq"
+        ],
+        "delta": [
+          -0.21923737374726052,
+          -0.003530423256958397
+        ],
+        "did": 0.2157069504903021,
+        "direction": "narrowed",
+        "residual": 0.0014525356438299577,
+        "se": 0.00489806913334324,
+        "ci": [
+          0.20621879620279698,
+          0.22543507368091592
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.01704468550316452,
+        "mde_unadjusted": 0.013722358081269818,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_itemcf",
+          "recall_two_tower"
+        ],
+        "delta": [
+          0.15963705347634088,
+          0.00592470576597811
+        ],
+        "did": -0.15371234771036277,
+        "direction": "narrowed",
+        "residual": 0.0022963787936226532,
+        "se": 0.005423671267964073,
+        "ci": [
+          -0.1644027631226294,
+          -0.14322233105537874
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.018873717074690984,
+        "mde_unadjusted": 0.015194877252232168,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_itemcf",
+          "recall_two_tower_logq"
+        ],
+        "delta": [
+          -0.08866660545502486,
+          0.0002680558582666519
+        ],
+        "did": 0.08893466131329152,
+        "direction": "reversed",
+        "residual": 0.002283323799599242,
+        "se": 0.004256752406739458,
+        "ci": [
+          0.08041855832248655,
+          0.0970356330943605
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.014812981210044575,
+        "mde_unadjusted": 0.011925654619888067,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_two_tower",
+          "recall_two_tower_logq"
+        ],
+        "delta": [
+          -0.24830365893136574,
+          -0.005656649907711458
+        ],
+        "did": 0.2426470090236543,
+        "direction": "narrowed",
+        "residual": -1.3054994023411516e-05,
+        "se": 0.004530496405655411,
+        "ci": [
+          0.23373679024364616,
+          0.2514630567427289
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.015765577068306027,
+        "mde_unadjusted": 0.012692571760798134,
+        "p_report": "< 0.0002"
+      }
+    ],
+    "changes": 6
+  },
+  "gap_scaling": {
+    "slope": 0.022728601495348916,
+    "r2": 0.8434331655461434,
+    "ci": [
+      0.011635567912574732,
+      0.03376586033731839
+    ],
+    "undefined_replicates": 0
+  },
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "delta": [
+        -0.13057076829223566,
+        -0.0037984791152250487
+      ],
+      "se": [
+        0.004082436304431712,
+        0.0015021968454318282
+      ],
+      "p": [
+        0.0,
+        0.0098
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.014206382352191177,
+        0.0052274625157760265
+      ],
+      "mde_unadjusted": [
+        0.011437293204383617,
+        0.004208532476857742
+      ],
+      "flip": false,
+      "pair": [
+        "recall_popularity",
+        "recall_itemcf"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "delta": [
+        0.02906628518410523,
+        0.002126226650753061
+      ],
+      "se": [
+        0.005091293629519104,
+        0.0018634284739808792
+      ],
+      "p": [
+        0.0,
+        0.25
+      ],
+      "significant": [
+        true,
+        false
+      ],
+      "mde_holm_first_step": [
+        0.01771708327444241,
+        0.006484504696030418
+      ],
+      "mde_unadjusted": [
+        0.014263692973533445,
+        0.005220553667715637
+      ],
+      "flip": false,
+      "pair": [
+        "recall_popularity",
+        "recall_two_tower"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "delta": [
+        -0.21923737374726052,
+        -0.003530423256958397
+      ],
+      "se": [
+        0.004625364898220396,
+        0.0016695730385712728
+      ],
+      "p": [
+        0.0,
+        0.0418
+      ],
+      "significant": [
+        true,
+        false
+      ],
+      "mde_holm_first_step": [
+        0.01609570789657912,
+        0.005809911332873774
+      ],
+      "mde_unadjusted": [
+        0.012958353927232857,
+        0.004677451145421231
+      ],
+      "flip": false,
+      "pair": [
+        "recall_popularity",
+        "recall_two_tower_logq"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "delta": [
+        0.15963705347634088,
+        0.00592470576597811
+      ],
+      "se": [
+        0.0051112585912536585,
+        0.0018578369039038952
+      ],
+      "p": [
+        0.0,
+        0.0016
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.017786558915676556,
+        0.006465046711498859
+      ],
+      "mde_unadjusted": [
+        0.014319626515209164,
+        0.005204888407641916
+      ],
+      "flip": false,
+      "pair": [
+        "recall_itemcf",
+        "recall_two_tower"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "delta": [
+        -0.08866660545502486,
+        0.0002680558582666519
+      ],
+      "se": [
+        0.004020864981492522,
+        0.0014289937066707204
+      ],
+      "p": [
+        0.0,
+        0.8444
+      ],
+      "significant": [
+        true,
+        false
+      ],
+      "mde_holm_first_step": [
+        0.013992121628844476,
+        0.0049727244865526736
+      ],
+      "mde_unadjusted": [
+        0.011264795896177522,
+        0.004003447645385149
+      ],
+      "flip": false,
+      "pair": [
+        "recall_itemcf",
+        "recall_two_tower_logq"
+      ],
+      "seed_support": 2,
+      "flip_final": false
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "delta": [
+        -0.24830365893136574,
+        -0.005656649907711458
+      ],
+      "se": [
+        0.0042529837955123375,
+        0.0015615402073914217
+      ],
+      "p": [
+        0.0,
+        0.0002
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.014799866900833892,
+        0.005433970205595285
+      ],
+      "mde_unadjusted": [
+        0.011915096534381352,
+        0.004374787962516866
+      ],
+      "flip": false,
+      "pair": [
+        "recall_two_tower",
+        "recall_two_tower_logq"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    }
+  ],
+  "flips": 0,
+  "kendall_tau_b": 0.6666666666666669,
+  "kendall_ci": [
+    0.3333333333333334,
+    1.0
+  ],
+  "kendall_undefined_replicates": 0,
+  "did": {
+    "H3a": {
+      "pair": [
+        "recall_popularity",
+        "recall_two_tower_logq"
+      ],
+      "point": 0.2157069504903021,
+      "p": 0.0,
+      "se": 0.00489806913334324,
+      "mde_holm_first_step": 0.015100864501602888,
+      "mde_unadjusted": 0.013722358081269818,
+      "ci": [
+        0.20621879620279698,
+        0.22543507368091592
+      ],
+      "holds": false
+    },
+    "H3b": {
+      "pair": [
+        "recall_two_tower_logq",
+        "recall_two_tower"
+      ],
+      "point": -0.2426470090236543,
+      "p": 0.0,
+      "se": 0.004530496405655411,
+      "mde_holm_first_step": 0.01396762897466581,
+      "mde_unadjusted": 0.012692571760798134,
+      "ci": [
+        -0.25146305674272895,
+        -0.23373679024364616
+      ],
+      "holds": false
+    }
+  },
+  "coverage": {
+    "common_users": 6649,
+    "users_in_both_sets": 14997,
+    "share": 0.4433553377342135,
+    "users_with_targets": [
+      16077,
+      10085
+    ]
+  }
+}

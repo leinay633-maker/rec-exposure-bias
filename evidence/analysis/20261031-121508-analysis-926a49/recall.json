@@ -1,0 +1,510 @@
+{
+  "proxy": false,
+  "models": [
+    "recall_popularity",
+    "recall_itemcf",
+    "recall_two_tower",
+    "recall_two_tower_logq"
+  ],
+  "users": 14786,
+  "recall@100": {
+    "recall_popularity": [
+      0.2178904601594021,
+      0.022786988920751792
+    ],
+    "recall_itemcf": [
+      0.32604663111301235,
+      0.026490362133434725
+    ],
+    "recall_two_tower": [
+      0.1492388447243182,
+      0.022972907878522124
+    ],
+    "recall_two_tower_logq": [
+      0.3901925987235339,
+      0.02821054063037962
+    ]
+  },
+  "secondary": {
+    "recall@50": {
+      "recall_popularity": [
+        0.13453201393950798,
+        0.01284038105375778
+      ],
+      "recall_itemcf": [
+        0.21842696798818656,
+        0.013510419094812156
+      ],
+      "recall_two_tower": [
+        0.08500181884311299,
+        0.011297547877392901
+      ],
+      "recall_two_tower_logq": [
+        0.26340463317506363,
+        0.014388234620162263
+      ]
+    },
+    "recall@200": {
+      "recall_popularity": [
+        0.3053336416935448,
+        0.043964891462582874
+      ],
+      "recall_itemcf": [
+        0.4603836981225557,
+        0.05095594422076661
+      ],
+      "recall_two_tower": [
+        0.25282164491653525,
+        0.04477340345484196
+      ],
+      "recall_two_tower_logq": [
+        0.5447668220540821,
+        0.055093190457554515
+      ]
+    },
+    "ndcg@100": {
+      "recall_popularity": [
+        0.08149321445629924,
+        0.009276890527406273
+      ],
+      "recall_itemcf": [
+        0.12066445389875742,
+        0.009856492951690716
+      ],
+      "recall_two_tower": [
+        0.04613971332976241,
+        0.008358648984731841
+      ],
+      "recall_two_tower_logq": [
+        0.14170493126925443,
+        0.01045412800888843
+      ]
+    }
+  },
+  "gap_changes": {
+    "pairs": [
+      {
+        "pair": [
+          "recall_popularity",
+          "recall_itemcf"
+        ],
+        "delta": [
+          -0.10815617095361024,
+          -0.003703373212682933
+        ],
+        "did": 0.1044527977409273,
+        "direction": "narrowed",
+        "residual": -0.0011326199385591007,
+        "se": 0.002767390716279852,
+        "ci": [
+          0.09904450622786731,
+          0.10976745984615026
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.009630183474191036,
+        "mde_unadjusted": 0.007753080923472693,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_popularity",
+          "recall_two_tower"
+        ],
+        "delta": [
+          0.06865161543508391,
+          -0.000185918957770332
+        ],
+        "did": -0.06883753439285424,
+        "direction": "reversed",
+        "residual": -0.001817692379458215,
+        "se": 0.003418569086252606,
+        "ci": [
+          -0.07556105754170778,
+          -0.06223813315173762
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.011896205088114856,
+        "mde_unadjusted": 0.009577412619143258,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_popularity",
+          "recall_two_tower_logq"
+        ],
+        "delta": [
+          -0.1723021385641318,
+          -0.005423551709627827
+        ],
+        "did": 0.16687858685450396,
+        "direction": "narrowed",
+        "residual": -0.0013281193089905476,
+        "se": 0.0031017763361493806,
+        "ci": [
+          0.16080824060382676,
+          0.17295299574459466
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.010793804805841486,
+        "mde_unadjusted": 0.008689890733248707,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_itemcf",
+          "recall_two_tower"
+        ],
+        "delta": [
+          0.17680778638869415,
+          0.003517454254912601
+        ],
+        "did": -0.17329033213378156,
+        "direction": "narrowed",
+        "residual": -0.0006850724408991142,
+        "se": 0.0033665677634908265,
+        "ci": [
+          -0.17988809934340047,
+          -0.16668885668835745
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.011715246802697988,
+        "mde_unadjusted": 0.009431726481971535,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_itemcf",
+          "recall_two_tower_logq"
+        ],
+        "delta": [
+          -0.06414596761052155,
+          -0.0017201784969448942
+        ],
+        "did": 0.06242578911357666,
+        "direction": "narrowed",
+        "residual": -0.0001954993704314466,
+        "se": 0.0026733620047948072,
+        "ci": [
+          0.05715463200767463,
+          0.0676138450633184
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.009302974982048653,
+        "mde_unadjusted": 0.007489651475297982,
+        "p_report": "< 0.0002"
+      },
+      {
+        "pair": [
+          "recall_two_tower",
+          "recall_two_tower_logq"
+        ],
+        "delta": [
+          -0.2409537539992157,
+          -0.005237632751857495
+        ],
+        "did": 0.23571612124735822,
+        "direction": "narrowed",
+        "residual": 0.0004895730704676674,
+        "se": 0.0027716916106036104,
+        "ci": [
+          0.23024440610464264,
+          0.24104115878168222
+        ],
+        "p": 0.0,
+        "seed_support": 3,
+        "significant": true,
+        "change_final": true,
+        "mde_holm_first_step": 0.009645150063909374,
+        "mde_unadjusted": 0.0077651302454348,
+        "p_report": "< 0.0002"
+      }
+    ],
+    "changes": 6
+  },
+  "gap_scaling": {
+    "slope": 0.023768900576430965,
+    "r2": 0.9173971381922428,
+    "ci": [
+      0.017551785128589098,
+      0.03016742494968621
+    ],
+    "undefined_replicates": 0
+  },
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "delta": [
+        -0.10815617095361024,
+        -0.003703373212682933
+      ],
+      "se": [
+        0.002653911759664897,
+        0.000786046420824639
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.009235290492064232,
+        0.002735346045370978
+      ],
+      "mde_unadjusted": [
+        0.007435159956053352,
+        0.0022021760333329143
+      ],
+      "flip": false,
+      "pair": [
+        "recall_popularity",
+        "recall_itemcf"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "delta": [
+        0.06865161543508391,
+        -0.000185918957770332
+      ],
+      "se": [
+        0.0032778722228540076,
+        0.0009539781032793706
+      ],
+      "p": [
+        0.0,
+        0.846
+      ],
+      "significant": [
+        true,
+        false
+      ],
+      "mde_holm_first_step": [
+        0.011406597097164772,
+        0.0033197278977978874
+      ],
+      "mde_unadjusted": [
+        0.009183238366410886,
+        0.0026726509525509313
+      ],
+      "flip": false,
+      "pair": [
+        "recall_popularity",
+        "recall_two_tower"
+      ],
+      "seed_support": 2,
+      "flip_final": false
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "delta": [
+        -0.1723021385641318,
+        -0.005423551709627827
+      ],
+      "se": [
+        0.0029892265005886723,
+        0.000856985766243918
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.010402145052101804,
+        0.002982206348799699
+      ],
+      "mde_unadjusted": [
+        0.00837457277764078,
+        0.0024009186548421763
+      ],
+      "flip": false,
+      "pair": [
+        "recall_popularity",
+        "recall_two_tower_logq"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "delta": [
+        0.17680778638869415,
+        0.003517454254912601
+      ],
+      "se": [
+        0.003222725291069323,
+        0.0009733941323499492
+      ],
+      "p": [
+        0.0,
+        0.0004
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.011214692474517512,
+        0.0033872933200528453
+      ],
+      "mde_unadjusted": [
+        0.009028739537498628,
+        0.002727046612589516
+      ],
+      "flip": false,
+      "pair": [
+        "recall_itemcf",
+        "recall_two_tower"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "delta": [
+        -0.06414596761052155,
+        -0.0017201784969448942
+      ],
+      "se": [
+        0.002567910833620284,
+        0.0007536652307230096
+      ],
+      "p": [
+        0.0,
+        0.02
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.008936017717935216,
+        0.002622663437903628
+      ],
+      "mde_unadjusted": [
+        0.007194221032902738,
+        0.0021114573697992834
+      ],
+      "flip": false,
+      "pair": [
+        "recall_itemcf",
+        "recall_two_tower_logq"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "delta": [
+        -0.2409537539992157,
+        -0.005237632751857495
+      ],
+      "se": [
+        0.002644347523222328,
+        0.0008058081457863584
+      ],
+      "p": [
+        0.0,
+        0.0
+      ],
+      "significant": [
+        true,
+        true
+      ],
+      "mde_holm_first_step": [
+        0.009202008111231395,
+        0.002804114447327492
+      ],
+      "mde_unadjusted": [
+        0.007408364932613313,
+        0.0022575401898700816
+      ],
+      "flip": false,
+      "pair": [
+        "recall_two_tower",
+        "recall_two_tower_logq"
+      ],
+      "seed_support": 3,
+      "flip_final": false
+    }
+  ],
+  "flips": 0,
+  "kendall_tau_b": 0.6666666666666669,
+  "kendall_ci": [
+    0.6666666666666669,
+    1.0
+  ],
+  "kendall_undefined_replicates": 0,
+  "did": {
+    "H3a": {
+      "pair": [
+        "recall_popularity",
+        "recall_two_tower_logq"
+      ],
+      "point": 0.16687858685450396,
+      "p": 0.0,
+      "se": 0.0031017763361493806,
+      "mde_holm_first_step": 0.009562850766563016,
+      "mde_unadjusted": 0.008689890733248707,
+      "ci": [
+        0.16080824060382676,
+        0.17295299574459466
+      ],
+      "holds": false
+    },
+    "H3b": {
+      "pair": [
+        "recall_two_tower_logq",
+        "recall_two_tower"
+      ],
+      "point": -0.23571612124735822,
+      "p": 0.0,
+      "se": 0.0027716916106036104,
+      "mde_holm_first_step": 0.008545191648486588,
+      "mde_unadjusted": 0.0077651302454348,
+      "ci": [
+        -0.24104115878168222,
+        -0.23024440610464264
+      ],
+      "holds": false
+    }
+  },
+  "coverage": {
+    "common_users": 14786,
+    "users_in_both_sets": 21795,
+    "share": 0.6784124799265887,
+    "users_with_targets": [
+      17916,
+      21267
+    ]
+  }
+}

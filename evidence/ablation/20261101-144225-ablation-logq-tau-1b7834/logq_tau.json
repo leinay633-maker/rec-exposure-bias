@@ -1,0 +1,786 @@
+{
+  "note": "exploratory, protocol §15; test pair opened on 2026-10-30",
+  "time": "2026-11-01 14:47:19",
+  "cells": {
+    "plain_t005": {
+      "model": "recall_two_tower",
+      "logq": false,
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.05,
+        "dim": 16
+      },
+      "frozen": true,
+      "runs": [
+        {
+          "seed": 0,
+          "run_id": "20261030-210115-tune-recall_two_tower-e95db3",
+          "path": ".runs/runs/20261030-210115-tune-recall_two_tower-e95db3/model.pt",
+          "sha256": "83aedecb27ccac813af51c24190e0e11add0a64808701a42ff84edbaa880729f",
+          "valid_metric": 0.16503622357326278
+        },
+        {
+          "seed": 1,
+          "run_id": "20261030-210634-seed-recall_two_tower-e63db0",
+          "path": ".runs/runs/20261030-210634-seed-recall_two_tower-e63db0/model.pt",
+          "sha256": "ffb0525ccac4f663952e9afec4d82532ff795b560f1bd5a3e710ac813d3fc396",
+          "valid_metric": 0.16011842979568078
+        },
+        {
+          "seed": 2,
+          "run_id": "20261030-210732-seed-recall_two_tower-096bc1",
+          "path": ".runs/runs/20261030-210732-seed-recall_two_tower-096bc1/model.pt",
+          "sha256": "bb876527c6bf4ffd4b3254bf8f38d9da3d90db3b3d421b165baf4a69466d4a59",
+          "valid_metric": 0.17282894633453205
+        }
+      ]
+    },
+    "plain_t01": {
+      "model": "recall_two_tower",
+      "logq": false,
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.1,
+        "dim": 16
+      },
+      "frozen": false,
+      "runs": [
+        {
+          "seed": 0,
+          "run_id": "20261101-144300-ablation-recall_two_tower-b84cbb",
+          "path": ".runs/runs/20261101-144300-ablation-recall_two_tower-b84cbb/model.pt",
+          "sha256": "225b9e268b504bf632f887cefbedbde381d628649ce3b30de35237545ac7ef47",
+          "valid_metric": 0.15666670778448996
+        },
+        {
+          "seed": 1,
+          "run_id": "20261101-144342-ablation-recall_two_tower-2a98d6",
+          "path": ".runs/runs/20261101-144342-ablation-recall_two_tower-2a98d6/model.pt",
+          "sha256": "93e6d175e17beec1075538b5abed23b660623b7200216291a0a70d2ebe707376",
+          "valid_metric": 0.15890396189079248
+        },
+        {
+          "seed": 2,
+          "run_id": "20261101-144424-ablation-recall_two_tower-393a65",
+          "path": ".runs/runs/20261101-144424-ablation-recall_two_tower-393a65/model.pt",
+          "sha256": "b685ce2faa59b19b97d7603fbe56aebcc49fcf13231f2e758cc6c5f099c19322",
+          "valid_metric": 0.1626093836960997
+        }
+      ]
+    },
+    "logq_t005": {
+      "model": "recall_two_tower_logq",
+      "logq": true,
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.05,
+        "dim": 16
+      },
+      "frozen": false,
+      "runs": [
+        {
+          "seed": 0,
+          "run_id": "20261101-144527-ablation-recall_two_tower_logq-cfbe3e",
+          "path": ".runs/runs/20261101-144527-ablation-recall_two_tower_logq-cfbe3e/model.pt",
+          "sha256": "ffada2e9e75bf0d51720305da5b9f85e0a7c981d276bd5ef6af5fca5599529ef",
+          "valid_metric": 0.4138195116006972
+        },
+        {
+          "seed": 1,
+          "run_id": "20261101-144603-ablation-recall_two_tower_logq-228839",
+          "path": ".runs/runs/20261101-144603-ablation-recall_two_tower_logq-228839/model.pt",
+          "sha256": "9dde4153bb332171a23460e62cf2a2b5be287113af34e99b64717ddc598b76ef",
+          "valid_metric": 0.41582388769947004
+        },
+        {
+          "seed": 2,
+          "run_id": "20261101-144642-ablation-recall_two_tower_logq-a67d26",
+          "path": ".runs/runs/20261101-144642-ablation-recall_two_tower_logq-a67d26/model.pt",
+          "sha256": "db2f266e233f2c19d7638cef63281300ae5f595617ddbfbb8676d79caa03d5f5",
+          "valid_metric": 0.4141329264063412
+        }
+      ]
+    },
+    "logq_t01": {
+      "model": "recall_two_tower_logq",
+      "logq": true,
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.1,
+        "dim": 16
+      },
+      "frozen": true,
+      "runs": [
+        {
+          "seed": 0,
+          "run_id": "20261030-211143-tune-recall_two_tower_logq-d63e93",
+          "path": ".runs/runs/20261030-211143-tune-recall_two_tower_logq-d63e93/model.pt",
+          "sha256": "2d7bdaa45da4ebcc37e1f61ad399543e4d131bc26d3fdf5d0eecf8d3c96943e4",
+          "valid_metric": 0.41522179735044323
+        },
+        {
+          "seed": 1,
+          "run_id": "20261030-211626-seed-recall_two_tower_logq-197cb3",
+          "path": ".runs/runs/20261030-211626-seed-recall_two_tower_logq-197cb3/model.pt",
+          "sha256": "9db7b87260b6878780162fe2024d2d31dcd3b86a394b9c12c7a85dd54c40b167",
+          "valid_metric": 0.4149245718136569
+        },
+        {
+          "seed": 2,
+          "run_id": "20261030-211730-seed-recall_two_tower_logq-79ca91",
+          "path": ".runs/runs/20261030-211730-seed-recall_two_tower_logq-79ca91/model.pt",
+          "sha256": "34666dfa06855e756a5522b0bdc18b02f5a1bb9b60c519de379f23bb08f2e771",
+          "valid_metric": 0.4174754750587252
+        }
+      ]
+    }
+  },
+  "attempts": [
+    "20261101-144300-ablation-recall_two_tower-b84cbb",
+    "20261101-144342-ablation-recall_two_tower-2a98d6",
+    "20261101-144424-ablation-recall_two_tower-393a65",
+    "20261101-144527-ablation-recall_two_tower_logq-cfbe3e",
+    "20261101-144603-ablation-recall_two_tower_logq-228839",
+    "20261101-144642-ablation-recall_two_tower_logq-a67d26"
+  ],
+  "reproduction_seed0": {
+    "plain_t01": {
+      "tune_seed0": 0.15666670778448996,
+      "ablation_seed0": 0.15666670778448996,
+      "difference": 0.0
+    },
+    "logq_t005": {
+      "tune_seed0": 0.4138195116006972,
+      "ablation_seed0": 0.4138195116006972,
+      "difference": 0.0
+    }
+  },
+  "proxy": {
+    "pair": "standard valid vs random calibration, 4/22-4/28, tab 1",
+    "users": 6649,
+    "recall@100": {
+      "cells": {
+        "plain_t005": [
+          0.16405314750379069,
+          0.02335258659109356
+        ],
+        "plain_t01": [
+          0.15643275517390876,
+          0.022864690731858987
+        ],
+        "logq_t005": [
+          0.41211326680720156,
+          0.02845776103080372
+        ],
+        "logq_t01": [
+          0.41235680643515643,
+          0.02900923649880502
+        ]
+      },
+      "simple_effects": {
+        "logq_at_tau0.05": {
+          "plus": "logq_t005",
+          "minus": "plain_t005",
+          "standard": {
+            "point": 0.24806011930341088,
+            "ci": [
+              0.23980044515357588,
+              0.25633009215419245
+            ],
+            "se": 0.004212236378981821,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random": {
+            "point": 0.005105174439710158,
+            "ci": [
+              0.002146523917157407,
+              0.008126760731834584
+            ],
+            "se": 0.00152648557054473,
+            "p": 0.0008,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random_minus_standard": {
+            "point": -0.24295494486370073,
+            "ci": [
+              -0.25171512463556284,
+              -0.23423170501699841
+            ],
+            "se": 0.004477481062296042,
+            "p": 0.0,
+            "holm_significant": true
+          }
+        },
+        "logq_at_tau0.1": {
+          "plus": "logq_t01",
+          "minus": "plain_t01",
+          "standard": {
+            "point": 0.2559240512612477,
+            "ci": [
+              0.24753719210383474,
+              0.2642913007851406
+            ],
+            "se": 0.004270355172214624,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random": {
+            "point": 0.006144545766946032,
+            "ci": [
+              0.0030954514111895893,
+              0.009102333295688027
+            ],
+            "se": 0.001553544195393627,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random_minus_standard": {
+            "point": -0.24977950549430164,
+            "ci": [
+              -0.25856690962979123,
+              -0.2409012210589322
+            ],
+            "se": 0.004540028568562867,
+            "p": 0.0,
+            "holm_significant": true
+          }
+        },
+        "tau0.1_vs_0.05_without_logq": {
+          "plus": "plain_t01",
+          "minus": "plain_t005",
+          "standard": {
+            "point": -0.007620392329881931,
+            "ci": [
+              -0.010929846849819739,
+              -0.004389926736837407
+            ],
+            "se": 0.00167181838362231,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random": {
+            "point": -0.00048789585923457446,
+            "ci": [
+              -0.001927728856398951,
+              0.0009818392026458888
+            ],
+            "se": 0.0007364282000444963,
+            "p": 0.5152,
+            "seed_support": 2,
+            "holm_significant": false
+          },
+          "random_minus_standard": {
+            "point": 0.0071324964706473565,
+            "ci": [
+              0.0036204451625638633,
+              0.010794868950683297
+            ],
+            "se": 0.001821986254339986,
+            "p": 0.0,
+            "holm_significant": true
+          }
+        },
+        "tau0.1_vs_0.05_with_logq": {
+          "plus": "logq_t01",
+          "minus": "logq_t005",
+          "standard": {
+            "point": 0.0002435396279548696,
+            "ci": [
+              -0.0033111400403806877,
+              0.0037528758409870857
+            ],
+            "se": 0.001802103428030687,
+            "p": 0.8942,
+            "seed_support": 2,
+            "holm_significant": false
+          },
+          "random": {
+            "point": 0.0005514754680013001,
+            "ci": [
+              -0.000794519533873401,
+              0.0019163199620566556
+            ],
+            "se": 0.0006894998182515182,
+            "p": 0.42,
+            "seed_support": 2,
+            "holm_significant": false
+          },
+          "random_minus_standard": {
+            "point": 0.0003079358400464305,
+            "ci": [
+              -0.0034526706589711,
+              0.004136056948392731
+            ],
+            "se": 0.0019353440189751852,
+            "p": 0.8794,
+            "holm_significant": false
+          }
+        }
+      },
+      "interaction": {
+        "standard": {
+          "point": 0.0078639319578368,
+          "ci": [
+            0.003128395508439922,
+            0.012675315879445394
+          ],
+          "se": 0.0024511563164610413,
+          "p": 0.0008
+        },
+        "random": {
+          "point": 0.0010393713272358746,
+          "ci": [
+            -0.0008624218123132546,
+            0.002986743616005788
+          ],
+          "se": 0.000982095089470223,
+          "p": 0.2908
+        },
+        "random_minus_standard": {
+          "point": -0.006824560630600926,
+          "ci": [
+            -0.012097444878277333,
+            -0.0016663559030835006
+          ],
+          "se": 0.0026516464877753875,
+          "p": 0.0088
+        }
+      },
+      "original_gap": {
+        "standard": {
+          "point": 0.24830365893136574,
+          "ci": [
+            0.2398772779208903,
+            0.2565879841146354
+          ],
+          "se": 0.0042529837955123375,
+          "p": 0.0,
+          "seed_support": 3
+        },
+        "random": {
+          "point": 0.005656649907711458,
+          "ci": [
+            0.002646959762905069,
+            0.008759397191278951
+          ],
+          "se": 0.0015615402073914217,
+          "p": 0.0002,
+          "seed_support": 3
+        },
+        "random_minus_standard": {
+          "point": -0.2426470090236543,
+          "ci": [
+            -0.25146305674272895,
+            -0.23373679024364616
+          ],
+          "se": 0.004530496405655411,
+          "p": 0.0
+        }
+      },
+      "logq_share_of_original_gap": {
+        "standard": {
+          "gap": 0.24830365893136574,
+          "logq_first_then_tau": 0.9990191863100085,
+          "tau_first_then_logq": 1.0306898108657687
+        },
+        "random": {
+          "gap": 0.005656649907711458,
+          "logq_first_then_tau": 0.9025084675561239,
+          "tau_first_then_logq": 1.086251733304097
+        }
+      }
+    },
+    "secondary": {
+      "recall@50": {
+        "plain_t005": [
+          0.09321051923855843,
+          0.012610919411252374
+        ],
+        "plain_t01": [
+          0.0911670268227946,
+          0.011575865826112806
+        ],
+        "logq_t005": [
+          0.2796793608088005,
+          0.014195340764519258
+        ],
+        "logq_t01": [
+          0.2813310841943359,
+          0.014524263409870054
+        ]
+      },
+      "recall@200": {
+        "plain_t005": [
+          0.2749256063451429,
+          0.04576550772602091
+        ],
+        "plain_t01": [
+          0.25999384781509055,
+          0.04500862814352764
+        ],
+        "logq_t005": [
+          0.5692414366452234,
+          0.05611595269262465
+        ],
+        "logq_t01": [
+          0.5685549802068929,
+          0.05615213480430624
+        ]
+      },
+      "ndcg@100": {
+        "plain_t005": [
+          0.04850877749607269,
+          0.007480613193526274
+        ],
+        "plain_t01": [
+          0.0473095846960668,
+          0.007245925089763073
+        ],
+        "logq_t005": [
+          0.1423027886108721,
+          0.00913880147336957
+        ],
+        "logq_t01": [
+          0.14282403464719545,
+          0.00933315277366898
+        ]
+      }
+    }
+  },
+  "test": {
+    "pair": "standard test vs random test, 4/29-5/08, tab 1",
+    "users": 14786,
+    "recall@100": {
+      "cells": {
+        "plain_t005": [
+          0.1492388447243182,
+          0.022972907878522124
+        ],
+        "plain_t01": [
+          0.14131167403496364,
+          0.021880871159575318
+        ],
+        "logq_t005": [
+          0.389109143666758,
+          0.02854308592215912
+        ],
+        "logq_t01": [
+          0.3901925987235339,
+          0.02821054063037962
+        ]
+      },
+      "simple_effects": {
+        "logq_at_tau0.05": {
+          "plus": "logq_t005",
+          "minus": "plain_t005",
+          "standard": {
+            "point": 0.23987029894243977,
+            "ci": [
+              0.23471908175436823,
+              0.24492083925381283
+            ],
+            "se": 0.0026316441079436248,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random": {
+            "point": 0.005570178043636995,
+            "ci": [
+              0.0040324577817658315,
+              0.007157542295202261
+            ],
+            "se": 0.0007997628509251619,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random_minus_standard": {
+            "point": -0.23430012089880278,
+            "ci": [
+              -0.23964914039683355,
+              -0.22893207138631405
+            ],
+            "se": 0.002759701863472496,
+            "p": 0.0,
+            "holm_significant": true
+          }
+        },
+        "logq_at_tau0.1": {
+          "plus": "logq_t01",
+          "minus": "plain_t01",
+          "standard": {
+            "point": 0.24888092468857026,
+            "ci": [
+              0.24370259988593793,
+              0.2539963236683095
+            ],
+            "se": 0.002631662485931035,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random": {
+            "point": 0.006329669470804301,
+            "ci": [
+              0.004749292995152247,
+              0.00791867176887781
+            ],
+            "se": 0.0008132516925052291,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random_minus_standard": {
+            "point": -0.24255125521776597,
+            "ci": [
+              -0.2479003805205412,
+              -0.23711815763540922
+            ],
+            "se": 0.002768643406650967,
+            "p": 0.0,
+            "holm_significant": true
+          }
+        },
+        "tau0.1_vs_0.05_without_logq": {
+          "plus": "plain_t01",
+          "minus": "plain_t005",
+          "standard": {
+            "point": -0.007927170689354557,
+            "ci": [
+              -0.009882756047976176,
+              -0.005938129661866664
+            ],
+            "se": 0.00099491765092746,
+            "p": 0.0,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random": {
+            "point": -0.001092036718946806,
+            "ci": [
+              -0.0018793969988338364,
+              -0.00028181029637832413
+            ],
+            "se": 0.000409497702144213,
+            "p": 0.0074,
+            "seed_support": 3,
+            "holm_significant": true
+          },
+          "random_minus_standard": {
+            "point": 0.006835133970407751,
+            "ci": [
+              0.004746138847452231,
+              0.00895512885301255
+            ],
+            "se": 0.001082389688300151,
+            "p": 0.0,
+            "holm_significant": true
+          }
+        },
+        "tau0.1_vs_0.05_with_logq": {
+          "plus": "logq_t01",
+          "minus": "logq_t005",
+          "standard": {
+            "point": 0.0010834550567759282,
+            "ci": [
+              -0.0011549116148086985,
+              0.003381286173998496
+            ],
+            "se": 0.0011571118924627887,
+            "p": 0.343,
+            "seed_support": 3,
+            "holm_significant": false
+          },
+          "random": {
+            "point": -0.00033254529177949993,
+            "ci": [
+              -0.0010410164090239751,
+              0.00038059628975431464
+            ],
+            "se": 0.0003578338804949444,
+            "p": 0.359,
+            "seed_support": 3,
+            "holm_significant": false
+          },
+          "random_minus_standard": {
+            "point": -0.0014160003485554282,
+            "ci": [
+              -0.00377880789815869,
+              0.0008815877248621131
+            ],
+            "se": 0.0011995663546824366,
+            "p": 0.2348,
+            "holm_significant": false
+          }
+        }
+      },
+      "interaction": {
+        "standard": {
+          "point": 0.009010625746130485,
+          "ci": [
+            0.0061318646006384,
+            0.01197162783638719
+          ],
+          "se": 0.00150106742985815,
+          "p": 0.0
+        },
+        "random": {
+          "point": 0.000759491427167306,
+          "ci": [
+            -0.00031471026301897287,
+            0.0017949411937397974
+          ],
+          "se": 0.0005366578481791181,
+          "p": 0.163
+        },
+        "random_minus_standard": {
+          "point": -0.008251134318963179,
+          "ci": [
+            -0.011393083633539806,
+            -0.0051811016218888456
+          ],
+          "se": 0.0015889476124694196,
+          "p": 0.0
+        }
+      },
+      "original_gap": {
+        "standard": {
+          "point": 0.2409537539992157,
+          "ci": [
+            0.23576564418565454,
+            0.24608134569238133
+          ],
+          "se": 0.002644347523222328,
+          "p": 0.0,
+          "seed_support": 3
+        },
+        "random": {
+          "point": 0.005237632751857495,
+          "ci": [
+            0.003677709654886172,
+            0.0068186734045809294
+          ],
+          "se": 0.0008058081457863584,
+          "p": 0.0,
+          "seed_support": 3
+        },
+        "random_minus_standard": {
+          "point": -0.23571612124735822,
+          "ci": [
+            -0.24104115878168222,
+            -0.23024440610464264
+          ],
+          "se": 0.0027716916106036104,
+          "p": 0.0
+        }
+      },
+      "logq_share_of_original_gap": {
+        "standard": {
+          "gap": 0.2409537539992157,
+          "logq_first_then_tau": 0.9955034730159072,
+          "tau_first_then_logq": 1.0328991375223826
+        },
+        "random": {
+          "gap": 0.005237632751857495,
+          "logq_first_then_tau": 1.0634915251859849,
+          "tau_first_then_logq": 1.2084981461442712
+        }
+      }
+    },
+    "secondary": {
+      "recall@50": {
+        "plain_t005": [
+          0.085001818843112,
+          0.011297547877392915
+        ],
+        "plain_t01": [
+          0.08175976091118192,
+          0.010970144916585604
+        ],
+        "logq_t005": [
+          0.2623870439128455,
+          0.014440217050106409
+        ],
+        "logq_t01": [
+          0.2634046331750646,
+          0.014388234620162215
+        ]
+      },
+      "recall@200": {
+        "plain_t005": [
+          0.25282164491653714,
+          0.044773403454841265
+        ],
+        "plain_t01": [
+          0.23521360720792048,
+          0.04340602077938048
+        ],
+        "logq_t005": [
+          0.5453796286614487,
+          0.054804074218157306
+        ],
+        "logq_t01": [
+          0.5447668220540796,
+          0.05509319045755417
+        ]
+      },
+      "ndcg@100": {
+        "plain_t005": [
+          0.046139713329762216,
+          0.008358648984731848
+        ],
+        "plain_t01": [
+          0.04455437224071524,
+          0.00801728998565004
+        ],
+        "logq_t005": [
+          0.1413895813186969,
+          0.010630980915703752
+        ],
+        "logq_t01": [
+          0.1417049312692547,
+          0.010454128008888428
+        ]
+      }
+    },
+    "formal_check": {
+      "users": 14786,
+      "max_abs_difference": 0.0,
+      "rows": [
+        {
+          "cell": "plain_t005",
+          "here": [
+            0.1492388447243182,
+            0.022972907878522124
+          ],
+          "formal": [
+            0.1492388447243182,
+            0.022972907878522124
+          ]
+        },
+        {
+          "cell": "logq_t01",
+          "here": [
+            0.3901925987235339,
+            0.02821054063037962
+          ],
+          "formal": [
+            0.3901925987235339,
+            0.02821054063037962
+          ]
+        }
+      ]
+    }
+  }
+}

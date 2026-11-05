@@ -1,0 +1,112 @@
+{
+ "run_id": "20261104-103914-rlrec-reward-models-01f6d0",
+ "dir": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0",
+ "note": "docs/rlrec/PROTOCOL.md \u00a75; only equality with \u00a718 is reported",
+ "time": "2026-11-04 10:43:31",
+ "equal": true,
+ "tolerance": 1e-12,
+ "max_abs_metric_difference": 0.0,
+ "refit_max_abs_prediction_difference": {
+  "standard_test": 0.0,
+  "random_test": 0.0
+ },
+ "users_match": true,
+ "rounds": [
+  175,
+  163,
+  164
+ ],
+ "models": [
+  {
+   "cell": "A_refit",
+   "seed": 0,
+   "trees": 175,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/A_refit_seed0.txt",
+   "sha256": "b2bd29f45adfac1c4eb41732aa8dfa15cd9ac120f24bc0c786eb0ec1b87c280c"
+  },
+  {
+   "cell": "A_refit",
+   "seed": 1,
+   "trees": 163,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/A_refit_seed1.txt",
+   "sha256": "dbf31bd96295621b6df7fcd9c5aa189303855002ca18b2fe37177520caca0c82"
+  },
+  {
+   "cell": "A_refit",
+   "seed": 2,
+   "trees": 164,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/A_refit_seed2.txt",
+   "sha256": "29ace00bcafc544c80afbc826ca67e5220f95208014969a56461cc912e8b8c04"
+  },
+  {
+   "cell": "B_standard_fixed",
+   "seed": 0,
+   "trees": 175,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/B_standard_fixed_seed0.txt",
+   "sha256": "3c7c0cbfd1d31e1223ec62c945567338a79214dae8ebd50a3151721d5de53a9c"
+  },
+  {
+   "cell": "B_standard_fixed",
+   "seed": 1,
+   "trees": 163,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/B_standard_fixed_seed1.txt",
+   "sha256": "2628f5527931bdafea9de0be86d9f6fe50bace1f8401a6da3308fb2137d4d164"
+  },
+  {
+   "cell": "B_standard_fixed",
+   "seed": 2,
+   "trees": 164,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/B_standard_fixed_seed2.txt",
+   "sha256": "259e4e95217b5e26ebc7684e009137616de4fd92f12072449ba7b2513474c4d9"
+  },
+  {
+   "cell": "B_random_fixed",
+   "seed": 0,
+   "trees": 175,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/B_random_fixed_seed0.txt",
+   "sha256": "38ae74c9c96dd6e00b0675bf94a7f828f731db82bedfe427f74c97a86cff5e94"
+  },
+  {
+   "cell": "B_random_fixed",
+   "seed": 1,
+   "trees": 163,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/B_random_fixed_seed1.txt",
+   "sha256": "5f1f79d2ed7f869586c052e70dd7fc6736a5853ec34a88d340e54f16dee9a7ac"
+  },
+  {
+   "cell": "B_random_fixed",
+   "seed": 2,
+   "trees": 164,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/B_random_fixed_seed2.txt",
+   "sha256": "2ea655520aae5595c8e8fce7c28ac0af312f470014c9627f4bcbbc33275f8a1a"
+  },
+  {
+   "cell": "C_fixed",
+   "seed": 0,
+   "trees": 175,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/C_fixed_seed0.txt",
+   "sha256": "b915bfd4df08e803d5f5649716a3a5a2e06a223b237761cf37c2a1db1ce1d314"
+  },
+  {
+   "cell": "C_fixed",
+   "seed": 1,
+   "trees": 163,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/C_fixed_seed1.txt",
+   "sha256": "2722981ca3fb22655682bb73aaf3aa55f01f4d06f4cb5cb14ee994f31cce7581"
+  },
+  {
+   "cell": "C_fixed",
+   "seed": 2,
+   "trees": 164,
+   "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/C_fixed_seed2.txt",
+   "sha256": "50b38976315ad92537d7b63d5baa4874e2f8a381a9d66e52c3df3f45981acdf1"
+  }
+ ],
+ "fit_rows": {
+  "path": ".runs/rlrec/reward_models/20261104-103914-rlrec-reward-models-01f6d0/fit_rows.json",
+  "sha256": "64327f560505033ec0f2f623a7a208aba671ba517814dd2a342c906bf4bedf93",
+  "added": 61434,
+  "random_fit_rows": 161574
+ },
+ "seconds": 256.9
+}

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 530" width="1240" height="530" role="img" aria-label="解析最优下 R1、R3、R4、R5 先涨后跌，R6 一路上涨；RLOO 各档都没有检出高于 π0">
+<style>
+svg{--surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7; --R1:#2a78d6; --R3:#eb6834; --R4:#1baf7a; --R5:#eda100; --R6:#e87ba4;font-family:system-ui,"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}
+@media (prefers-color-scheme:dark){svg{--surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781; --grid:#2c2c2a; --axis:#383835; --R1:#3987e5; --R3:#d95926; --R4:#199e70; --R5:#c98500; --R6:#d55181;}}
+.bg{fill:var(--surface)} .title{fill:var(--ink);font-size:21px;font-weight:600} .sub{fill:var(--ink2);font-size:15px}
+.panel{fill:var(--ink);font-size:16px;font-weight:600} .tick{fill:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.axis-label{fill:var(--ink2);font-size:14px} .legend{fill:var(--ink2);font-size:14px} .label{fill:var(--ink2);font-size:13px}
+.grid{stroke:var(--grid);stroke-width:1} .base{stroke:var(--axis);stroke-width:1.5}
+.line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round} .ci{stroke-width:1.25;opacity:.7}
+.ring{stroke:var(--surface);stroke-width:2} .hollow{stroke-width:2} .stem{stroke-width:2;stroke-linecap:round}
+.lR1{stroke:var(--R1)} .fR1{fill:var(--R1)} .hR1{stroke:var(--R1);fill:var(--surface)} .lR3{stroke:var(--R3)} .fR3{fill:var(--R3)} .hR3{stroke:var(--R3);fill:var(--surface)} .lR4{stroke:var(--R4)} .fR4{fill:var(--R4)} .hR4{stroke:var(--R4);fill:var(--surface)} .lR5{stroke:var(--R5)} .fR5{fill:var(--R5)} .hR5{stroke:var(--R5);fill:var(--surface)} .lR6{stroke:var(--R6)} .fR6{fill:var(--R6)} .hR6{stroke:var(--R6);fill:var(--surface)}
+</style>
+<rect class="bg" width="1240" height="530"/>
+<text class="title" x="24" y="34">解析最优下 R1、R3、R4、R5 先涨后跌，R6 一路上涨；RLOO 各档都没有检出高于 π0</text>
+<text class="sub" x="24" y="60">纵轴：V₅₀₀ 减去 π0 的 V₅₀₀（随机测试）。竖线是相对 π0 的配对 95% 区间；R6 的这个区间没有算</text>
+<line class="line lR1" x1="24" x2="50" y1="87" y2="87"/>
+<circle class="ring fR1" cx="37.0" cy="87.0" r="5.0"><title>R1 常规日志模型</title></circle>
+<text class="legend" x="57" y="92">R1 常规日志模型</text>
+<line class="line lR3" x1="186.01" x2="212.01" y1="87" y2="87"/>
+<rect class="ring fR3" x="194.5" y="82.5" width="9.0" height="9.0"><title>R3 分组校准</title></rect>
+<text class="legend" x="219.01" y="92">R3 分组校准</text>
+<line class="line lR4" x1="324.24" x2="350.24" y1="87" y2="87"/>
+<polygon class="ring fR4" points="337.2,81.0 342.7,91.0 331.7,91.0"><title>R4 多一段常规数据</title></polygon>
+<text class="legend" x="357.24" y="92">R4 多一段常规数据</text>
+<line class="line lR5" x1="498.14" x2="524.14" y1="87" y2="87"/>
+<polygon class="ring fR5" points="511.1,80.5 517.6,87.0 511.1,93.5 504.6,87.0"><title>R5 混入随机数据</title></polygon>
+<text class="legend" x="531.14" y="92">R5 混入随机数据</text>
+<line class="line lR6" x1="660.15" x2="686.15" y1="87" y2="87"/>
+<polygon class="ring fR6" points="671.1,81.0 675.1,81.0 675.1,85.0 679.1,85.0 679.1,89.0 675.1,89.0 675.1,93.0 671.1,93.0 671.1,89.0 667.1,89.0 667.1,85.0 671.1,85.0"><title>R6 只用随机数据</title></polygon>
+<text class="legend" x="693.15" y="92">R6 只用随机数据</text>
+<text class="legend" x="822.16" y="92">空心：这一档有模型没对齐</text>
+<text class="panel" x="74" y="128">解析最优 O3</text>
+<line class="grid" x1="74" x2="464" y1="446.3" y2="446.3"/>
+<text class="tick" text-anchor="end" x="66" y="450.3">-0.01</text>
+<line class="grid" x1="74" x2="464" y1="373.0" y2="373.0"/>
+<text class="tick" text-anchor="end" x="66" y="377.0">π0</text>
+<line class="grid" x1="74" x2="464" y1="299.7" y2="299.7"/>
+<text class="tick" text-anchor="end" x="66" y="303.7">+0.01</text>
+<line class="grid" x1="74" x2="464" y1="226.3" y2="226.3"/>
+<text class="tick" text-anchor="end" x="66" y="230.3">+0.02</text>
+<line class="grid" x1="74" x2="464" y1="153.0" y2="153.0"/>
+<text class="tick" text-anchor="end" x="66" y="157.0">+0.03</text>
+<line class="base" x1="74" x2="464" y1="472" y2="472"/>
+<text class="tick" text-anchor="middle" x="74.0" y="492">0</text>
+<text class="tick" text-anchor="middle" x="158.8" y="492">0.5</text>
+<text class="tick" text-anchor="middle" x="243.6" y="492">1</text>
+<text class="tick" text-anchor="middle" x="328.3" y="492">1.5</text>
+<text class="tick" text-anchor="middle" x="413.1" y="492">2</text>
+<text class="axis-label" text-anchor="middle" x="269.0" y="516">平均 KL（nat）</text>
+<line class="ci lR1" x1="150.8" x2="150.8" y1="348.8" y2="317.5"/>
+<line class="ci lR1" x1="235.6" x2="235.6" y1="382.5" y2="346.5"/>
+<line class="ci lR1" x1="405.1" x2="405.1" y1="435.7" y2="394.7"/>
+<line class="ci lR3" x1="154.8" x2="154.8" y1="355.4" y2="326.2"/>
+<line class="ci lR3" x1="239.6" x2="239.6" y1="374.0" y2="340.7"/>
+<line class="ci lR3" x1="409.1" x2="409.1" y1="412.5" y2="374.3"/>
+<line class="ci lR4" x1="158.8" x2="158.8" y1="356.5" y2="325.6"/>
+<line class="ci lR4" x1="243.6" x2="243.6" y1="388.4" y2="351.9"/>
+<line class="ci lR4" x1="413.1" x2="413.1" y1="443.0" y2="401.6"/>
+<line class="ci lR5" x1="162.8" x2="162.8" y1="322.8" y2="292.8"/>
+<line class="ci lR5" x1="247.6" x2="247.6" y1="345.5" y2="311.2"/>
+<line class="ci lR5" x1="417.1" x2="417.1" y1="375.7" y2="336.0"/>
+<polyline class="line lR1" points="74.0,373.0 158.8,333.3 243.6,364.5 413.1,415.5"/>
+<polyline class="line lR3" points="74.0,373.0 158.8,340.8 243.6,357.4 413.1,393.2"/>
+<polyline class="line lR4" points="74.0,373.0 158.8,341.2 243.6,370.3 413.1,422.6"/>
+<polyline class="line lR5" points="74.0,373.0 158.8,307.8 243.6,328.3 413.1,355.9"/>
+<polyline class="line lR6" points="74.0,373.0 158.8,209.2 243.6,185.5 413.1,166.8"/>
+<circle class="ring fR1" cx="158.8" cy="333.3" r="5.0"><title>O3 R1 0.5 nat：+0.0054</title></circle>
+<circle class="ring fR1" cx="243.6" cy="364.5" r="5.0"><title>O3 R1 1.0 nat：+0.0012</title></circle>
+<circle class="ring fR1" cx="413.1" cy="415.5" r="5.0"><title>O3 R1 2.0 nat：-0.0058</title></circle>
+<rect class="ring fR3" x="154.3" y="336.3" width="9.0" height="9.0"><title>O3 R3 0.5 nat：+0.0044</title></rect>
+<rect class="ring fR3" x="239.1" y="352.9" width="9.0" height="9.0"><title>O3 R3 1.0 nat：+0.0021</title></rect>
+<rect class="ring fR3" x="408.6" y="388.7" width="9.0" height="9.0"><title>O3 R3 2.0 nat：-0.0028</title></rect>
+<polygon class="ring fR4" points="158.8,335.2 164.3,345.2 153.3,345.2"><title>O3 R4 0.5 nat：+0.0043</title></polygon>
+<polygon class="ring fR4" points="243.6,364.3 249.1,374.3 238.1,374.3"><title>O3 R4 1.0 nat：+0.0004</title></polygon>
+<polygon class="ring fR4" points="413.1,416.6 418.6,426.6 407.6,426.6"><title>O3 R4 2.0 nat：-0.0068</title></polygon>
+<polygon class="ring fR5" points="158.8,301.3 165.3,307.8 158.8,314.3 152.3,307.8"><title>O3 R5 0.5 nat：+0.0089</title></polygon>
+<polygon class="ring fR5" points="243.6,321.8 250.1,328.3 243.6,334.8 237.1,328.3"><title>O3 R5 1.0 nat：+0.0061</title></polygon>
+<polygon class="ring fR5" points="413.1,349.4 419.6,355.9 413.1,362.4 406.6,355.9"><title>O3 R5 2.0 nat：+0.0023</title></polygon>
+<polygon class="ring fR6" points="156.8,203.2 160.8,203.2 160.8,207.2 164.8,207.2 164.8,211.2 160.8,211.2 160.8,215.2 156.8,215.2 156.8,211.2 152.8,211.2 152.8,207.2 156.8,207.2"><title>O3 R6 0.5 nat：+0.0223</title></polygon>
+<polygon class="ring fR6" points="241.6,179.5 245.6,179.5 245.6,183.5 249.6,183.5 249.6,187.5 245.6,187.5 245.6,191.5 241.6,191.5 241.6,187.5 237.6,187.5 237.6,183.5 241.6,183.5"><title>O3 R6 1.0 nat：+0.0256</title></polygon>
+<polygon class="ring fR6" points="411.1,160.8 415.1,160.8 415.1,164.8 419.1,164.8 419.1,168.8 415.1,168.8 415.1,172.8 411.1,172.8 411.1,168.8 407.1,168.8 407.1,164.8 411.1,164.8"><title>O3 R6 2.0 nat：+0.0281</title></polygon>
+<text class="label" x="424.1" y="170.8">R6</text>
+<text class="label" x="424.1" y="359.9">R5</text>
+<text class="label" x="424.1" y="397.2">R3</text>
+<text class="label" x="424.1" y="423.0">R1、R4</text>
+<text class="panel" x="536" y="128">RLOO O4（9 个模型的混合）</text>
+<line class="grid" x1="536" x2="926" y1="446.3" y2="446.3"/>
+<text class="tick" text-anchor="end" x="528" y="450.3">-0.01</text>
+<line class="grid" x1="536" x2="926" y1="373.0" y2="373.0"/>
+<text class="tick" text-anchor="end" x="528" y="377.0">π0</text>
+<line class="grid" x1="536" x2="926" y1="299.7" y2="299.7"/>
+<text class="tick" text-anchor="end" x="528" y="303.7">+0.01</text>
+<line class="grid" x1="536" x2="926" y1="226.3" y2="226.3"/>
+<text class="tick" text-anchor="end" x="528" y="230.3">+0.02</text>
+<line class="grid" x1="536" x2="926" y1="153.0" y2="153.0"/>
+<text class="tick" text-anchor="end" x="528" y="157.0">+0.03</text>
+<line class="base" x1="536" x2="926" y1="472" y2="472"/>
+<text class="tick" text-anchor="middle" x="536.0" y="492">0</text>
+<text class="tick" text-anchor="middle" x="620.8" y="492">0.5</text>
+<text class="tick" text-anchor="middle" x="705.6" y="492">1</text>
+<text class="tick" text-anchor="middle" x="790.3" y="492">1.5</text>
+<text class="tick" text-anchor="middle" x="875.1" y="492">2</text>
+<text class="axis-label" text-anchor="middle" x="731.0" y="516">平均 KL（nat）</text>
+<line class="ci lR1" x1="617.9" x2="617.9" y1="404.9" y2="378.0"/>
+<line class="ci lR1" x1="702.0" x2="702.0" y1="417.2" y2="388.6"/>
+<line class="ci lR1" x1="809.3" x2="809.3" y1="452.4" y2="412.3"/>
+<line class="ci lR3" x1="622.1" x2="622.1" y1="394.4" y2="370.5"/>
+<line class="ci lR3" x1="707.6" x2="707.6" y1="398.1" y2="372.5"/>
+<line class="ci lR3" x1="830.7" x2="830.7" y1="414.3" y2="378.5"/>
+<line class="ci lR4" x1="625.8" x2="625.8" y1="407.3" y2="380.3"/>
+<line class="ci lR4" x1="709.9" x2="709.9" y1="415.7" y2="387.3"/>
+<line class="ci lR4" x1="813.2" x2="813.2" y1="460.0" y2="419.7"/>
+<line class="ci lR5" x1="629.9" x2="629.9" y1="387.1" y2="362.2"/>
+<line class="ci lR5" x1="716.6" x2="716.6" y1="382.3" y2="354.9"/>
+<line class="ci lR5" x1="838.8" x2="838.8" y1="388.7" y2="350.9"/>
+<polyline class="line lR1" points="536.0,373.0 623.9,391.5 708.0,403.0 815.3,432.3"/>
+<polyline class="line lR3" points="536.0,373.0 624.1,382.4 709.6,385.3 832.7,396.3"/>
+<polyline class="line lR4" points="536.0,373.0 623.8,393.8 707.9,401.6 811.2,439.7"/>
+<polyline class="line lR5" points="536.0,373.0 623.9,374.6 710.6,368.6 832.8,369.6"/>
+<circle class="hollow hR1" cx="623.9" cy="391.5" r="5.0"><title>O4 R1 0.5 nat：-0.0025</title></circle>
+<circle class="ring fR1" cx="708.0" cy="403.0" r="5.0"><title>O4 R1 1.0 nat：-0.0041</title></circle>
+<circle class="hollow hR1" cx="815.3" cy="432.3" r="5.0"><title>O4 R1 2.0 nat：-0.0081</title></circle>
+<rect class="hollow hR3" x="619.6" y="377.9" width="9.0" height="9.0"><title>O4 R3 0.5 nat：-0.0013</title></rect>
+<rect class="ring fR3" x="705.1" y="380.8" width="9.0" height="9.0"><title>O4 R3 1.0 nat：-0.0017</title></rect>
+<rect class="hollow hR3" x="828.2" y="391.8" width="9.0" height="9.0"><title>O4 R3 2.0 nat：-0.0032</title></rect>
+<polygon class="hollow hR4" points="623.8,387.8 629.3,397.8 618.3,397.8"><title>O4 R4 0.5 nat：-0.0028</title></polygon>
+<polygon class="ring fR4" points="707.9,395.6 713.4,405.6 702.4,405.6"><title>O4 R4 1.0 nat：-0.0039</title></polygon>
+<polygon class="hollow hR4" points="811.2,433.7 816.7,443.7 805.7,443.7"><title>O4 R4 2.0 nat：-0.0091</title></polygon>
+<polygon class="hollow hR5" points="623.9,368.1 630.4,374.6 623.9,381.1 617.4,374.6"><title>O4 R5 0.5 nat：-0.0002</title></polygon>
+<polygon class="ring fR5" points="710.6,362.1 717.1,368.6 710.6,375.1 704.1,368.6"><title>O4 R5 1.0 nat：+0.0006</title></polygon>
+<polygon class="hollow hR5" points="832.8,363.1 839.3,369.6 832.8,376.1 826.3,369.6"><title>O4 R5 2.0 nat：+0.0005</title></polygon>
+<text class="label" x="843.8" y="373.6">R5</text>
+<text class="label" x="843.7" y="400.3">R3</text>
+<text class="label" x="826.3" y="440.0">R1、R4</text>
+<text class="panel" x="998" y="128">纯奖励排序 O2′（没有 KL）</text>
+<line class="grid" x1="998" x2="1188" y1="417.0" y2="417.0"/>
+<text class="tick" text-anchor="end" x="990" y="421.0">-0.08</text>
+<line class="grid" x1="998" x2="1188" y1="307.0" y2="307.0"/>
+<text class="tick" text-anchor="end" x="990" y="311.0">-0.04</text>
+<line class="grid" x1="998" x2="1188" y1="197.0" y2="197.0"/>
+<text class="tick" text-anchor="end" x="990" y="201.0">π0</text>
+<line class="base" x1="998" x2="1188" y1="472" y2="472"/>
+<line class="stem lR1" x1="1017.0" x2="1017.0" y1="197.0" y2="438.1"/>
+<circle class="ring fR1" cx="1017.0" cy="438.1" r="5.0"><title>O2′ R1：-0.0877</title></circle>
+<text class="label" text-anchor="middle" x="1017.0" y="458.1">R1</text>
+<line class="stem lR3" x1="1055.0" x2="1055.0" y1="197.0" y2="361.0"/>
+<rect class="ring fR3" x="1050.5" y="356.5" width="9.0" height="9.0"><title>O2′ R3：-0.0596</title></rect>
+<text class="label" text-anchor="middle" x="1055.0" y="381.0">R3</text>
+<line class="stem lR4" x1="1093.0" x2="1093.0" y1="197.0" y2="439.9"/>
+<polygon class="ring fR4" points="1093.0,433.9 1098.5,443.9 1087.5,443.9"><title>O2′ R4：-0.0883</title></polygon>
+<text class="label" text-anchor="middle" x="1093.0" y="459.9">R4</text>
+<line class="stem lR5" x1="1131.0" x2="1131.0" y1="197.0" y2="333.8"/>
+<polygon class="ring fR5" points="1131.0,327.3 1137.5,333.8 1131.0,340.3 1124.5,333.8"><title>O2′ R5：-0.0497</title></polygon>
+<text class="label" text-anchor="middle" x="1131.0" y="353.8">R5</text>
+<line class="stem lR6" x1="1169.0" x2="1169.0" y1="197.0" y2="177.4"/>
+<polygon class="ring fR6" points="1167.0,171.4 1171.0,171.4 1171.0,175.4 1175.0,175.4 1175.0,179.4 1171.0,179.4 1171.0,183.4 1167.0,183.4 1167.0,179.4 1163.0,179.4 1163.0,175.4 1167.0,175.4"><title>O2′ R6：+0.0071</title></polygon>
+<text class="label" text-anchor="middle" x="1169.0" y="166.4">R6</text>
+<text class="tick" text-anchor="middle" x="1093.0" y="516">这一格的纵轴和左边不同</text>
+</svg>

@@ -1,0 +1,805 @@
+{
+  "created": "2026-10-30 21:18:28",
+  "commit": "6e6857ce8e55c2a1ed0c43108977cc7dea1917d0",
+  "dirty": false,
+  "code_hash": "086c2f11f0c96a9a",
+  "data_manifest_sha256": "e920680e33ab5e0c2588c286daf11b1440b3b43ffcecf29e9ce41866f17cf34f",
+  "selection": {
+    "logreg": {
+      "config": {
+        "lr": 0.001,
+        "weight_decay": 1e-06,
+        "dim": 1
+      },
+      "trials": [
+        "20261030-204449-tune-logreg-5ae26e",
+        "20261030-204504-tune-logreg-9c2d18",
+        "20261030-204514-tune-logreg-68d236",
+        "20261030-204525-tune-logreg-ec433e"
+      ],
+      "is_click": {
+        "0": "20261030-204449-tune-logreg-5ae26e"
+      },
+      "attempts": [
+        "20261030-204449-tune-logreg-5ae26e",
+        "20261030-204504-tune-logreg-9c2d18",
+        "20261030-204514-tune-logreg-68d236",
+        "20261030-204525-tune-logreg-ec433e",
+        "20261030-204531-second-label-logreg-3b821b"
+      ],
+      "long_view": {
+        "0": "20261030-204531-second-label-logreg-3b821b"
+      }
+    },
+    "lightgbm": {
+      "config": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      },
+      "trials": [
+        "20261030-204541-tune-lightgbm-25b604",
+        "20261030-204605-tune-lightgbm-3a5697",
+        "20261030-204632-tune-lightgbm-a5b5b9",
+        "20261030-204650-tune-lightgbm-c3fca0",
+        "20261030-204706-tune-lightgbm-88d943",
+        "20261030-204739-tune-lightgbm-374734",
+        "20261030-204811-tune-lightgbm-59b499",
+        "20261030-204836-tune-lightgbm-16ee3d"
+      ],
+      "is_click": {
+        "0": "20261030-204541-tune-lightgbm-25b604",
+        "1": "20261030-204859-seed-lightgbm-cdc788",
+        "2": "20261030-204923-seed-lightgbm-336d78"
+      },
+      "attempts": [
+        "20261030-204541-tune-lightgbm-25b604",
+        "20261030-204605-tune-lightgbm-3a5697",
+        "20261030-204632-tune-lightgbm-a5b5b9",
+        "20261030-204650-tune-lightgbm-c3fca0",
+        "20261030-204706-tune-lightgbm-88d943",
+        "20261030-204739-tune-lightgbm-374734",
+        "20261030-204811-tune-lightgbm-59b499",
+        "20261030-204836-tune-lightgbm-16ee3d",
+        "20261030-204859-seed-lightgbm-cdc788",
+        "20261030-204923-seed-lightgbm-336d78",
+        "20261030-204945-second-label-lightgbm-5ad812",
+        "20261030-205008-second-label-lightgbm-e31a23",
+        "20261030-205028-second-label-lightgbm-00a736"
+      ],
+      "long_view": {
+        "0": "20261030-204945-second-label-lightgbm-5ad812",
+        "1": "20261030-205008-second-label-lightgbm-e31a23",
+        "2": "20261030-205028-second-label-lightgbm-00a736"
+      }
+    },
+    "two_tower": {
+      "config": {
+        "lr": 0.001,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "trials": [
+        "20261030-205050-tune-two_tower-329130",
+        "20261030-205102-tune-two_tower-d47d63",
+        "20261030-205112-tune-two_tower-441468",
+        "20261030-205119-tune-two_tower-5f9e77",
+        "20261030-205126-tune-two_tower-986cad",
+        "20261030-205132-tune-two_tower-b6ec87",
+        "20261030-205139-tune-two_tower-5b9297",
+        "20261030-205145-tune-two_tower-5511c0"
+      ],
+      "is_click": {
+        "0": "20261030-205102-tune-two_tower-d47d63",
+        "1": "20261030-205152-seed-two_tower-e8a393",
+        "2": "20261030-205201-seed-two_tower-818462"
+      },
+      "attempts": [
+        "20261030-205050-tune-two_tower-329130",
+        "20261030-205102-tune-two_tower-d47d63",
+        "20261030-205112-tune-two_tower-441468",
+        "20261030-205119-tune-two_tower-5f9e77",
+        "20261030-205126-tune-two_tower-986cad",
+        "20261030-205132-tune-two_tower-b6ec87",
+        "20261030-205139-tune-two_tower-5b9297",
+        "20261030-205145-tune-two_tower-5511c0",
+        "20261030-205152-seed-two_tower-e8a393",
+        "20261030-205201-seed-two_tower-818462",
+        "20261030-205209-second-label-two_tower-b8148d",
+        "20261030-205216-second-label-two_tower-f24f12",
+        "20261030-205222-second-label-two_tower-2889bf"
+      ],
+      "long_view": {
+        "0": "20261030-205209-second-label-two_tower-b8148d",
+        "1": "20261030-205216-second-label-two_tower-f24f12",
+        "2": "20261030-205222-second-label-two_tower-2889bf"
+      }
+    },
+    "dcn": {
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 0.0
+      },
+      "trials": [
+        "20261030-205231-tune-dcn-787605",
+        "20261030-205236-tune-dcn-e39ecc",
+        "20261030-205243-tune-dcn-f67c41",
+        "20261030-205253-tune-dcn-83d7f3",
+        "20261030-205304-tune-dcn-d302f9",
+        "20261030-205309-tune-dcn-507f36",
+        "20261030-205314-tune-dcn-b6520c",
+        "20261030-205324-tune-dcn-bb2758"
+      ],
+      "is_click": {
+        "0": "20261030-205243-tune-dcn-f67c41",
+        "1": "20261030-205341-seed-dcn-c7ad2a",
+        "2": "20261030-205355-seed-dcn-f6e58b"
+      },
+      "attempts": [
+        "20261030-205231-tune-dcn-787605",
+        "20261030-205236-tune-dcn-e39ecc",
+        "20261030-205243-tune-dcn-f67c41",
+        "20261030-205253-tune-dcn-83d7f3",
+        "20261030-205304-tune-dcn-d302f9",
+        "20261030-205309-tune-dcn-507f36",
+        "20261030-205314-tune-dcn-b6520c",
+        "20261030-205324-tune-dcn-bb2758",
+        "20261030-205341-seed-dcn-c7ad2a",
+        "20261030-205355-seed-dcn-f6e58b",
+        "20261030-205408-second-label-dcn-358652",
+        "20261030-205418-second-label-dcn-3c89b8",
+        "20261030-205429-second-label-dcn-319511"
+      ],
+      "long_view": {
+        "0": "20261030-205408-second-label-dcn-358652",
+        "1": "20261030-205418-second-label-dcn-3c89b8",
+        "2": "20261030-205429-second-label-dcn-319511"
+      }
+    },
+    "din": {
+      "config": {
+        "lr": 0.003,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "trials": [
+        "20261030-205442-tune-din-ee979a",
+        "20261030-205449-tune-din-bb9678",
+        "20261030-205459-tune-din-e0a27d",
+        "20261030-205507-tune-din-d5fe95",
+        "20261030-205516-tune-din-8d57d8",
+        "20261030-205523-tune-din-807078",
+        "20261030-205530-tune-din-096dd5",
+        "20261030-205538-tune-din-851933"
+      ],
+      "is_click": {
+        "0": "20261030-205523-tune-din-807078",
+        "1": "20261030-205546-seed-din-5c7424",
+        "2": "20261030-205556-seed-din-19d5b3"
+      },
+      "attempts": [
+        "20261030-205442-tune-din-ee979a",
+        "20261030-205449-tune-din-bb9678",
+        "20261030-205459-tune-din-e0a27d",
+        "20261030-205507-tune-din-d5fe95",
+        "20261030-205516-tune-din-8d57d8",
+        "20261030-205523-tune-din-807078",
+        "20261030-205530-tune-din-096dd5",
+        "20261030-205538-tune-din-851933",
+        "20261030-205546-seed-din-5c7424",
+        "20261030-205556-seed-din-19d5b3",
+        "20261030-205606-second-label-din-35f43d",
+        "20261030-205617-second-label-din-c25cb6",
+        "20261030-205624-second-label-din-386b9d"
+      ],
+      "long_view": {
+        "0": "20261030-205606-second-label-din-35f43d",
+        "1": "20261030-205617-second-label-din-c25cb6",
+        "2": "20261030-205624-second-label-din-386b9d"
+      }
+    },
+    "mmoe": {
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 1e-05
+      },
+      "trials": [
+        "20261030-205633-tune-mmoe-cda020",
+        "20261030-205652-tune-mmoe-89c1fc",
+        "20261030-205711-tune-mmoe-27c948",
+        "20261030-205723-tune-mmoe-0cb7b5",
+        "20261030-205741-tune-mmoe-31fefa",
+        "20261030-205752-tune-mmoe-85b183",
+        "20261030-205809-tune-mmoe-af9c7e",
+        "20261030-205818-tune-mmoe-dbc7ea"
+      ],
+      "is_click": {
+        "0": "20261030-205723-tune-mmoe-0cb7b5",
+        "1": "20261030-205828-seed-mmoe-bdb982",
+        "2": "20261030-205844-seed-mmoe-fb43df"
+      },
+      "attempts": [
+        "20261030-205633-tune-mmoe-cda020",
+        "20261030-205652-tune-mmoe-89c1fc",
+        "20261030-205711-tune-mmoe-27c948",
+        "20261030-205723-tune-mmoe-0cb7b5",
+        "20261030-205741-tune-mmoe-31fefa",
+        "20261030-205752-tune-mmoe-85b183",
+        "20261030-205809-tune-mmoe-af9c7e",
+        "20261030-205818-tune-mmoe-dbc7ea",
+        "20261030-205828-seed-mmoe-bdb982",
+        "20261030-205844-seed-mmoe-fb43df"
+      ]
+    },
+    "recall_two_tower": {
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.05,
+        "dim": 16
+      },
+      "trials": [
+        "20261030-205901-tune-recall_two_tower-cb1691",
+        "20261030-210017-tune-recall_two_tower-2acf6a",
+        "20261030-210115-tune-recall_two_tower-e95db3",
+        "20261030-210232-tune-recall_two_tower-508539",
+        "20261030-210330-tune-recall_two_tower-3a9324",
+        "20261030-210427-tune-recall_two_tower-e474aa",
+        "20261030-210503-tune-recall_two_tower-257db6",
+        "20261030-210600-tune-recall_two_tower-f0e7d3"
+      ],
+      "is_click": {
+        "0": "20261030-210115-tune-recall_two_tower-e95db3",
+        "1": "20261030-210634-seed-recall_two_tower-e63db0",
+        "2": "20261030-210732-seed-recall_two_tower-096bc1"
+      },
+      "attempts": [
+        "20261030-205901-tune-recall_two_tower-cb1691",
+        "20261030-210017-tune-recall_two_tower-2acf6a",
+        "20261030-210115-tune-recall_two_tower-e95db3",
+        "20261030-210232-tune-recall_two_tower-508539",
+        "20261030-210330-tune-recall_two_tower-3a9324",
+        "20261030-210427-tune-recall_two_tower-e474aa",
+        "20261030-210503-tune-recall_two_tower-257db6",
+        "20261030-210600-tune-recall_two_tower-f0e7d3",
+        "20261030-210634-seed-recall_two_tower-e63db0",
+        "20261030-210732-seed-recall_two_tower-096bc1"
+      ]
+    },
+    "recall_two_tower_logq": {
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.1,
+        "dim": 16
+      },
+      "trials": [
+        "20261030-210857-tune-recall_two_tower_logq-180358",
+        "20261030-210939-tune-recall_two_tower_logq-2cfb87",
+        "20261030-211054-tune-recall_two_tower_logq-c53c50",
+        "20261030-211143-tune-recall_two_tower_logq-d63e93",
+        "20261030-211229-tune-recall_two_tower_logq-2b096d",
+        "20261030-211331-tune-recall_two_tower_logq-8ed8be",
+        "20261030-211424-tune-recall_two_tower_logq-537099",
+        "20261030-211522-tune-recall_two_tower_logq-9ee8ff"
+      ],
+      "is_click": {
+        "0": "20261030-211143-tune-recall_two_tower_logq-d63e93",
+        "1": "20261030-211626-seed-recall_two_tower_logq-197cb3",
+        "2": "20261030-211730-seed-recall_two_tower_logq-79ca91"
+      },
+      "attempts": [
+        "20261030-210857-tune-recall_two_tower_logq-180358",
+        "20261030-210939-tune-recall_two_tower_logq-2cfb87",
+        "20261030-211054-tune-recall_two_tower_logq-c53c50",
+        "20261030-211143-tune-recall_two_tower_logq-d63e93",
+        "20261030-211229-tune-recall_two_tower_logq-2b096d",
+        "20261030-211331-tune-recall_two_tower_logq-8ed8be",
+        "20261030-211424-tune-recall_two_tower_logq-537099",
+        "20261030-211522-tune-recall_two_tower_logq-9ee8ff",
+        "20261030-211626-seed-recall_two_tower_logq-197cb3",
+        "20261030-211730-seed-recall_two_tower_logq-79ca91"
+      ]
+    }
+  },
+  "artefacts": [
+    {
+      "model": "logreg",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-204449-tune-logreg-5ae26e",
+      "path": ".runs/runs/20261030-204449-tune-logreg-5ae26e/model.pt",
+      "sha256": "946b691cd6316afc8924e4fbe118bd480f20579d6ed4522b2d59eb5ba8292473",
+      "config": {
+        "lr": 0.001,
+        "weight_decay": 1e-06,
+        "dim": 1
+      },
+      "valid_metric": 0.606409353735986
+    },
+    {
+      "model": "logreg",
+      "label": "long_view",
+      "seed": 0,
+      "run_id": "20261030-204531-second-label-logreg-3b821b",
+      "path": ".runs/runs/20261030-204531-second-label-logreg-3b821b/model.pt",
+      "sha256": "63b74b45809728dec08ea7ad4847182de39d51ebeadbb0a3725e5b19431d0ea6",
+      "config": {
+        "lr": 0.001,
+        "weight_decay": 1e-06,
+        "dim": 1
+      },
+      "valid_metric": 0.6174014578402163
+    },
+    {
+      "model": "lightgbm",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-204541-tune-lightgbm-25b604",
+      "path": ".runs/runs/20261030-204541-tune-lightgbm-25b604/model.txt",
+      "sha256": "a81a7f44467f804a69f16173a9a7ebb513805fa93f97516a9aff47f744841391",
+      "config": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      },
+      "valid_metric": 0.5984609149590993
+    },
+    {
+      "model": "lightgbm",
+      "label": "is_click",
+      "seed": 1,
+      "run_id": "20261030-204859-seed-lightgbm-cdc788",
+      "path": ".runs/runs/20261030-204859-seed-lightgbm-cdc788/model.txt",
+      "sha256": "0f8497f811cda7d14286abd6d4c66b40db2b308c2a146556681a36d80d0833c2",
+      "config": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      },
+      "valid_metric": 0.5970457246535421
+    },
+    {
+      "model": "lightgbm",
+      "label": "is_click",
+      "seed": 2,
+      "run_id": "20261030-204923-seed-lightgbm-336d78",
+      "path": ".runs/runs/20261030-204923-seed-lightgbm-336d78/model.txt",
+      "sha256": "c5997a7cd6ae64f5e5f91632540dcc01b91743cba1ffd8597b0012bdc8ab854f",
+      "config": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      },
+      "valid_metric": 0.5983985051047122
+    },
+    {
+      "model": "lightgbm",
+      "label": "long_view",
+      "seed": 0,
+      "run_id": "20261030-204945-second-label-lightgbm-5ad812",
+      "path": ".runs/runs/20261030-204945-second-label-lightgbm-5ad812/model.txt",
+      "sha256": "57c38a1e735659f208f781016eb03ae7824d1dfaa0835e0933fab8d441ea9e0b",
+      "config": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      },
+      "valid_metric": 0.6108584244800447
+    },
+    {
+      "model": "lightgbm",
+      "label": "long_view",
+      "seed": 1,
+      "run_id": "20261030-205008-second-label-lightgbm-e31a23",
+      "path": ".runs/runs/20261030-205008-second-label-lightgbm-e31a23/model.txt",
+      "sha256": "8436dcf30f981edf08df5df15bf7e70c6cb31939ddac509b463f910f68e9b298",
+      "config": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      },
+      "valid_metric": 0.6111027021520392
+    },
+    {
+      "model": "lightgbm",
+      "label": "long_view",
+      "seed": 2,
+      "run_id": "20261030-205028-second-label-lightgbm-00a736",
+      "path": ".runs/runs/20261030-205028-second-label-lightgbm-00a736/model.txt",
+      "sha256": "f32735d92b1266e6333094bde3a0a6afeb33ed5bf015a016b46fa2a3eff5f687",
+      "config": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      },
+      "valid_metric": 0.610149572831132
+    },
+    {
+      "model": "two_tower",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-205102-tune-two_tower-d47d63",
+      "path": ".runs/runs/20261030-205102-tune-two_tower-d47d63/model.pt",
+      "sha256": "874d54d484ac825738ca1d770d5eb2df629ffb395f542960a26b66bd4f1ed54a",
+      "config": {
+        "lr": 0.001,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6068869013598613
+    },
+    {
+      "model": "two_tower",
+      "label": "is_click",
+      "seed": 1,
+      "run_id": "20261030-205152-seed-two_tower-e8a393",
+      "path": ".runs/runs/20261030-205152-seed-two_tower-e8a393/model.pt",
+      "sha256": "7c0bfa7cc9d1fccff6bb8202c0f13523d6e97c9536d7a5c34cb9a43aa8d1e68c",
+      "config": {
+        "lr": 0.001,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6058581404658738
+    },
+    {
+      "model": "two_tower",
+      "label": "is_click",
+      "seed": 2,
+      "run_id": "20261030-205201-seed-two_tower-818462",
+      "path": ".runs/runs/20261030-205201-seed-two_tower-818462/model.pt",
+      "sha256": "1a2e58067d617f36d7e8afdf0cd9f2edebf5b1f29ead1319ce3a58cdbbc05d25",
+      "config": {
+        "lr": 0.001,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6071274493437177
+    },
+    {
+      "model": "two_tower",
+      "label": "long_view",
+      "seed": 0,
+      "run_id": "20261030-205209-second-label-two_tower-b8148d",
+      "path": ".runs/runs/20261030-205209-second-label-two_tower-b8148d/model.pt",
+      "sha256": "d2421e71050fb6ed1af316f2f1d49d1286afb695fc8cf32b9867aa210126c771",
+      "config": {
+        "lr": 0.001,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6174310864733773
+    },
+    {
+      "model": "two_tower",
+      "label": "long_view",
+      "seed": 1,
+      "run_id": "20261030-205216-second-label-two_tower-f24f12",
+      "path": ".runs/runs/20261030-205216-second-label-two_tower-f24f12/model.pt",
+      "sha256": "e76b82fe69ddde90acb29ceb81b74b471f24379101e37846ed5915f14bbbd0d9",
+      "config": {
+        "lr": 0.001,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6174851524277709
+    },
+    {
+      "model": "two_tower",
+      "label": "long_view",
+      "seed": 2,
+      "run_id": "20261030-205222-second-label-two_tower-2889bf",
+      "path": ".runs/runs/20261030-205222-second-label-two_tower-2889bf/model.pt",
+      "sha256": "bc3a0c0eef80b867a270568318c19a4b5f93b4560492395899fbcdeb62e321ec",
+      "config": {
+        "lr": 0.001,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6144761801893708
+    },
+    {
+      "model": "dcn",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-205243-tune-dcn-f67c41",
+      "path": ".runs/runs/20261030-205243-tune-dcn-f67c41/model.pt",
+      "sha256": "cc6ff8bb38eae3e1c2809d52590a84679bf1c6454b90e3e86d840973628cc0b2",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 0.0
+      },
+      "valid_metric": 0.6051915664210671
+    },
+    {
+      "model": "dcn",
+      "label": "is_click",
+      "seed": 1,
+      "run_id": "20261030-205341-seed-dcn-c7ad2a",
+      "path": ".runs/runs/20261030-205341-seed-dcn-c7ad2a/model.pt",
+      "sha256": "4599a02eb25fe742850333cfdf777c6cc4524d302cdd600f029599511cf3a462",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 0.0
+      },
+      "valid_metric": 0.6039477697386397
+    },
+    {
+      "model": "dcn",
+      "label": "is_click",
+      "seed": 2,
+      "run_id": "20261030-205355-seed-dcn-f6e58b",
+      "path": ".runs/runs/20261030-205355-seed-dcn-f6e58b/model.pt",
+      "sha256": "02c6a92a326ad39e5e84677fa01dc540554ab494fb0461a80d1fa409089bfdfd",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 0.0
+      },
+      "valid_metric": 0.6046585877227201
+    },
+    {
+      "model": "dcn",
+      "label": "long_view",
+      "seed": 0,
+      "run_id": "20261030-205408-second-label-dcn-358652",
+      "path": ".runs/runs/20261030-205408-second-label-dcn-358652/model.pt",
+      "sha256": "15ea78e8017eb103b6b93147edf7d2ea3d6248caff988519966116bbafa344a3",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 0.0
+      },
+      "valid_metric": 0.6162971617211361
+    },
+    {
+      "model": "dcn",
+      "label": "long_view",
+      "seed": 1,
+      "run_id": "20261030-205418-second-label-dcn-3c89b8",
+      "path": ".runs/runs/20261030-205418-second-label-dcn-3c89b8/model.pt",
+      "sha256": "cf624097e26fecf9856050ad03e33340ac9a97b7c074a8549115f29a903c6e28",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 0.0
+      },
+      "valid_metric": 0.6175804576167353
+    },
+    {
+      "model": "dcn",
+      "label": "long_view",
+      "seed": 2,
+      "run_id": "20261030-205429-second-label-dcn-319511",
+      "path": ".runs/runs/20261030-205429-second-label-dcn-319511/model.pt",
+      "sha256": "4a53a184bda9b18558ce0c09954fad92e8913eb17a221c381bab9b92b4cc5657",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 0.0
+      },
+      "valid_metric": 0.6153383284665614
+    },
+    {
+      "model": "din",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-205523-tune-din-807078",
+      "path": ".runs/runs/20261030-205523-tune-din-807078/model.pt",
+      "sha256": "a26a29588d61fa0d315a4294b3ab2b418d3c95df35c26441f39457d177390b50",
+      "config": {
+        "lr": 0.003,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6052661296084543
+    },
+    {
+      "model": "din",
+      "label": "is_click",
+      "seed": 1,
+      "run_id": "20261030-205546-seed-din-5c7424",
+      "path": ".runs/runs/20261030-205546-seed-din-5c7424/model.pt",
+      "sha256": "6234f36f8dfeaa08d8515982fa137c52c18f29f2c7bb6978f40ce33419cc28fb",
+      "config": {
+        "lr": 0.003,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6043061958251252
+    },
+    {
+      "model": "din",
+      "label": "is_click",
+      "seed": 2,
+      "run_id": "20261030-205556-seed-din-19d5b3",
+      "path": ".runs/runs/20261030-205556-seed-din-19d5b3/model.pt",
+      "sha256": "60dfcaa876848911bbde70f043b8ca4e35dd5295acbb6da93574ff2b141452d6",
+      "config": {
+        "lr": 0.003,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6028129328714265
+    },
+    {
+      "model": "din",
+      "label": "long_view",
+      "seed": 0,
+      "run_id": "20261030-205606-second-label-din-35f43d",
+      "path": ".runs/runs/20261030-205606-second-label-din-35f43d/model.pt",
+      "sha256": "912e1bc5d7c5b732a84a9b285e206cb1da56ca4c304c125b185f69e2adf283ec",
+      "config": {
+        "lr": 0.003,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6166204853447923
+    },
+    {
+      "model": "din",
+      "label": "long_view",
+      "seed": 1,
+      "run_id": "20261030-205617-second-label-din-c25cb6",
+      "path": ".runs/runs/20261030-205617-second-label-din-c25cb6/model.pt",
+      "sha256": "ea9dc97c0acb47000dffa0a2f4f33054b18d80523fd0fbabae8e33acbc698a86",
+      "config": {
+        "lr": 0.003,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6160915550180964
+    },
+    {
+      "model": "din",
+      "label": "long_view",
+      "seed": 2,
+      "run_id": "20261030-205624-second-label-din-386b9d",
+      "path": ".runs/runs/20261030-205624-second-label-din-386b9d/model.pt",
+      "sha256": "6335dd685cbe9813149682381f622e56dbf2dc42018efc8a39867e702eda5a8e",
+      "config": {
+        "lr": 0.003,
+        "dim": 16,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6136736341895054
+    },
+    {
+      "model": "mmoe",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-205723-tune-mmoe-0cb7b5",
+      "path": ".runs/runs/20261030-205723-tune-mmoe-0cb7b5/model.pt",
+      "sha256": "e118dd20240c64c03ca5f5cd338a3de1a2400fad2194f046c9eb487bf999c1a6",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6061444635288944
+    },
+    {
+      "model": "mmoe",
+      "label": "is_click",
+      "seed": 1,
+      "run_id": "20261030-205828-seed-mmoe-bdb982",
+      "path": ".runs/runs/20261030-205828-seed-mmoe-bdb982/model.pt",
+      "sha256": "65a2f565024587a39d3e015a135a87f78fda32d10b0415a6d712264ee6e3a183",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6048078907891619
+    },
+    {
+      "model": "mmoe",
+      "label": "is_click",
+      "seed": 2,
+      "run_id": "20261030-205844-seed-mmoe-fb43df",
+      "path": ".runs/runs/20261030-205844-seed-mmoe-fb43df/model.pt",
+      "sha256": "b7b4a3de152fe075c52f2d0140d67effdd99dc3373fca6ec1d2e456fb9275bdf",
+      "config": {
+        "lr": 0.001,
+        "dim": 32,
+        "weight_decay": 1e-05
+      },
+      "valid_metric": 0.6068537497706146
+    },
+    {
+      "model": "recall_two_tower",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-210115-tune-recall_two_tower-e95db3",
+      "path": ".runs/runs/20261030-210115-tune-recall_two_tower-e95db3/model.pt",
+      "sha256": "83aedecb27ccac813af51c24190e0e11add0a64808701a42ff84edbaa880729f",
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.05,
+        "dim": 16
+      },
+      "valid_metric": 0.16503622357326278
+    },
+    {
+      "model": "recall_two_tower",
+      "label": "is_click",
+      "seed": 1,
+      "run_id": "20261030-210634-seed-recall_two_tower-e63db0",
+      "path": ".runs/runs/20261030-210634-seed-recall_two_tower-e63db0/model.pt",
+      "sha256": "ffb0525ccac4f663952e9afec4d82532ff795b560f1bd5a3e710ac813d3fc396",
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.05,
+        "dim": 16
+      },
+      "valid_metric": 0.16011842979568078
+    },
+    {
+      "model": "recall_two_tower",
+      "label": "is_click",
+      "seed": 2,
+      "run_id": "20261030-210732-seed-recall_two_tower-096bc1",
+      "path": ".runs/runs/20261030-210732-seed-recall_two_tower-096bc1/model.pt",
+      "sha256": "bb876527c6bf4ffd4b3254bf8f38d9da3d90db3b3d421b165baf4a69466d4a59",
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.05,
+        "dim": 16
+      },
+      "valid_metric": 0.17282894633453205
+    },
+    {
+      "model": "recall_two_tower_logq",
+      "label": "is_click",
+      "seed": 0,
+      "run_id": "20261030-211143-tune-recall_two_tower_logq-d63e93",
+      "path": ".runs/runs/20261030-211143-tune-recall_two_tower_logq-d63e93/model.pt",
+      "sha256": "2d7bdaa45da4ebcc37e1f61ad399543e4d131bc26d3fdf5d0eecf8d3c96943e4",
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.1,
+        "dim": 16
+      },
+      "valid_metric": 0.41522179735044323
+    },
+    {
+      "model": "recall_two_tower_logq",
+      "label": "is_click",
+      "seed": 1,
+      "run_id": "20261030-211626-seed-recall_two_tower_logq-197cb3",
+      "path": ".runs/runs/20261030-211626-seed-recall_two_tower_logq-197cb3/model.pt",
+      "sha256": "9db7b87260b6878780162fe2024d2d31dcd3b86a394b9c12c7a85dd54c40b167",
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.1,
+        "dim": 16
+      },
+      "valid_metric": 0.4149245718136569
+    },
+    {
+      "model": "recall_two_tower_logq",
+      "label": "is_click",
+      "seed": 2,
+      "run_id": "20261030-211730-seed-recall_two_tower_logq-79ca91",
+      "path": ".runs/runs/20261030-211730-seed-recall_two_tower_logq-79ca91/model.pt",
+      "sha256": "34666dfa06855e756a5522b0bdc18b02f5a1bb9b60c519de379f23bb08f2e771",
+      "config": {
+        "lr": 0.001,
+        "out": 64,
+        "tau": 0.1,
+        "dim": 16
+      },
+      "valid_metric": 0.4174754750587252
+    }
+  ]
+}

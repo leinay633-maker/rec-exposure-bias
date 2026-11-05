@@ -1,0 +1,26 @@
+{
+ "users": {
+  "proxy_assigned": 280,
+  "dense": 280,
+  "weighted_and_D": 280
+ },
+ "scale": 0.4997769350770089,
+ "multiplier": 3.2356010333914247,
+ "standard_errors": {
+  "H1": {
+   "se_proxy": 0.002170664650499855,
+   "se_scaled_to_test": 0.0010848481261068242,
+   "mde_holm_first_step": 0.003510135717903991
+  },
+  "H2": {
+   "se_proxy": 0.0024225355346736647,
+   "se_scaled_to_test": 0.0012107273846343471,
+   "mde_holm_first_step": 0.00391743077687819
+  },
+  "H3": {
+   "se_proxy": 0.003025585463778214,
+   "se_scaled_to_test": 0.0015121178299006262,
+   "mde_holm_first_step": 0.004892610013036065
+  }
+ }
+}

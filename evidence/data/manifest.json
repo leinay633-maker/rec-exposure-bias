@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-30 19:57:55",
+  "files": {
+    "standard_train": {
+      "rows": 1141112,
+      "sha256": "67cbf99d44f09f1121358a259a472b14903f0ef1dee346c2fe5d4ab8b7d7ece6"
+    },
+    "standard_valid": {
+      "rows": 124909,
+      "sha256": "f10f8e7085388e30f70f912f4da0f415629cfb7b32195084f62b07facbe94cd1"
+    },
+    "random_calib": {
+      "rows": 288338,
+      "sha256": "2a7f52e403d1aac900227b94e0643d9bf11bc00a140c4ede59bfda8c180d06bb"
+    },
+    "standard_test_meta": {
+      "rows": 170588,
+      "sha256": "efac5cf0a767a64158c3d365b8a8d1134ee8712a99cdadcbf840920cf922d7bf"
+    },
+    "random_test_meta": {
+      "rows": 897721,
+      "sha256": "8eaa5aed52b620ff1c752d5195add07960c5089e5b6a022ad85b3a17b49437be"
+    },
+    "users": {
+      "rows": 27285,
+      "sha256": "5e4e75cd4a6463d6b216cfdab2f8acb07a90c49f8d6dd02dccc6e9cdec613b8b"
+    },
+    "videos": {
+      "rows": 7583,
+      "sha256": "14628100ebf2055e9139760376f12fa8c123d22aa6393e7457d990891acb7f8f"
+    }
+  },
+  "raw": {
+    "standard_early": "5bb6eb0b3d9f47e5436cb5dc82ee1899b845ebf9750a5560b801e929e18bd41c",
+    "standard_late": "429e3b948828942e572f2c3a5be5a25799ffe75591d22d18cf417b9b534d31fd",
+    "random": "60b80994da969cd53da4d50c37ba3dafd6fb185df804c92c8410df34845a9d2c"
+  }
+}

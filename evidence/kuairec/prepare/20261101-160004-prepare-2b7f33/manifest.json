@@ -1,0 +1,34 @@
+{
+ "files": {
+  "items": "f7ca3d7c3140c622b8cc5b9323979ae809d4075a315f5d42bd56db31140f5c34",
+  "train_events": "800c4fdb23f7fffa146e1b0a4d3888c2fe6b8e66adb263e915cdacb85d5de12d",
+  "train_exposed_pool": "6f8edcb3627d02b064e88273d74970ae635da755d1c18eb0e36700078336ba1c",
+  "valid_targets": "84d6b959cbf9aae9af9aae6668ef55964f8ee3678f5872734b94a5bbbabbb8cf",
+  "valid_exposed_pool": "9087d34834da2ca917c75ad584100af70b0fbd0853e694e127d630afb1dd6809",
+  "small_pairs": "6d782ca445a99b1c3c52958f83662895167ce588c3b06722f8f281744fb7c373",
+  "proxy_dense": "1d1dfd5fe8c087069d3da99f06b37aa748415a944c590c50003404f1fc9ef1ff",
+  "users": "bcb791ef5457e36ecea51d9dcc643c23485134f1a5b75ab9fef6b16bc04405a7"
+ },
+ "raw_sha256": {
+  "big_matrix.csv": "4ee1a72ff9ce4e86ef50525da9dfd7aefcefa717b37c9d570010f689c42f4ef9",
+  "small_matrix.csv": "6b601cd38b2600d8734b4aede309ad73d1e201fdc4bd76d4bc7d2534793d7d15",
+  "kuairec_caption_category.csv": "08f6ec40059c5a7ecdcebf615d080d9cf8f59f9497f6d66e8d5ccabdc7cab2d9"
+ },
+ "archive_md5_expected": "261550d472c48eff4990fb13c0e5bcf7",
+ "counts": {
+  "train_rows": 8571929,
+  "valid_rows": 1850901,
+  "events": 631999,
+  "proxy": 280,
+  "test": 1121,
+  "others": 5765,
+  "pool": 3327,
+  "valid_eligible": 5183,
+  "valid_subset": 2000,
+  "valid_targets": 83649,
+  "cold_pool_items": 555,
+  "donors": 5541,
+  "small_pairs": 4643467,
+  "proxy_rows": 927909
+ }
+}
